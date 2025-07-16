@@ -23,7 +23,7 @@ export default function Portfolio() {
       <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-sm border-b z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-xl font-bold">Gesya Reihan N</h1>
+            <h1 className="text-xl font-bold">My Portfolio</h1>
             <div className="hidden md:flex space-x-6">
               <Link href="#skills" className="text-muted-foreground hover:text-foreground transition-colors">
                 Skills
