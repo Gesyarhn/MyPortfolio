@@ -46,20 +46,32 @@ export default function Portfolio() {
       <section className="pt-20 pb-16 px-4 bg-white">
         <div className="container mx-auto max-w-4xl text-center">
           <div className="mb-8">
-            <Image
+            {/* Foto atau ikon */}
+            {/* <Image
               src="/placeholder.svg?height=150&width=150"
               alt="Profile"
               width={150}
               height={150}
               className="rounded-full mx-auto mb-6 border-4 border-primary/20"
-            />
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+            /> */}
+
+            {/* Nama dan Role */}
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 pt-[50px]">
               Hi, I'm <span className="text-primary">Gesya Reihan N</span>
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8">Aspiring Data & Business Analyst</p>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Passionate about turning data into impact. I analyze, visualize, and translate numbers into meaningful stories that support business growth and smarter decision making. I aim to bridge the gap between data and strategy, helping teams understand what the numbers are saying and how they can act on them effectively.
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8">
+              Aspiring Data & Business Analyst
             </p>
+
+            {/* Deskripsi */}
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
+              Passionate about turning data into impact. I analyze, visualize, and translate numbers into
+              meaningful stories that support business growth and smarter decision making. I aim to bridge
+              the gap between data and strategy, helping teams understand what the numbers are saying and
+              how they can act on them effectively.
+            </p>
+
+            {/* Tombol Kontak */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="outline" size="lg" className="gap-2 bg-transparent" asChild>
                 <Link href="https://www.linkedin.com/in/gesyareihan/" target="_blank">
@@ -73,6 +85,24 @@ export default function Portfolio() {
                   gesyareihan1812@gmail.com
                 </Link>
               </Button>
+            </div>
+          </div>
+
+          {/* 🔽 Bagian tambahan: skill highlights */}
+          <div className="mt-10">
+            <h2 className="text-2xl md:text-xl font-semibold mb-4 text-primary">What I Also Know</h2>
+            <p className="text-muted-foreground mb-6">
+              Besides data analysis, I also have knowledge and experience in business process analysis and digital system design.
+            </p>
+            <div className="flex flex-wrap justify-center gap-3 text-sm md:text-base">
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Process Modeling</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">BPMN</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">UML Diagrams</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Use Case Scenarios</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Requirement Analysis</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">UI Design</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Process Reengineering</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">System Analysis</span>
             </div>
           </div>
         </div>
@@ -369,6 +399,76 @@ export default function Portfolio() {
                   <Badge variant="secondary">Pivot Tables</Badge>
                   <Badge variant="secondary">Customer Analysis</Badge>
                   <Badge variant="secondary">Demographics</Badge>
+                </div>
+                <div className="mt-auto">
+                  <Button size="sm" className="gap-2 w-full">
+                    <ExternalLink className="w-3 h-3" />
+                    View Project
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Project 5 */}
+            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+              <CardHeader className="p-0">
+                <Image
+                  src="/logos/logo PJ_Logo only.jpg" // Ganti dengan gambar mockup atau logo project kamu
+                  alt="Rekayasa Proses Bisnis PT Permata Jaya Corp"
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg w-full h-[200px] object-cover"
+                />
+              </CardHeader>
+              <CardContent className="flex flex-col flex-grow p-4">
+                <CardTitle className="mb-2">
+                  Business Process Reengineering - PT Permata Jaya Corp
+                </CardTitle>
+                <CardDescription className="mb-4">
+                  Final project for Business Process Reengineering (BPR) course. Analyzed and redesigned the core business processes of PT Permata Jaya Corp, a logistics company in Cikarang. Deliverables included AS-IS and TO-BE process models, gap analysis, and proposed IT-based improvements using BPMN diagrams.
+                </CardDescription>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="secondary">Business Process</Badge>
+                  <Badge variant="secondary">BPMN</Badge>
+                  <Badge variant="secondary">Gap Analysis</Badge>
+                  <Badge variant="secondary">To-Be Modeling</Badge>
+                  <Badge variant="secondary">Process Redesign</Badge>
+
+                </div>
+                <div className="mt-auto">
+                  <Button size="sm" className="gap-2 w-full">
+                    <ExternalLink className="w-3 h-3" />
+                    View Project
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Project 6*/}
+            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+              <CardHeader className="p-0">
+                <Image
+                  src="/logos/Satu_Katering.jpg" // Ganti dengan gambar mockup atau logo project kamu
+                  alt="Rekayasa Proses Bisnis PT Permata Jaya Corp"
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg w-full h-[200px] object-cover"
+                />
+              </CardHeader>
+              <CardContent className="flex flex-col flex-grow p-4">
+                <CardTitle className="mb-2">
+                  Satu Katering - E-Catering Marketplace System
+                </CardTitle>
+                <CardDescription className="mb-4">
+                  Final assessment project for System Analyst certification (BNSP). Designed an end-to-end online catering marketplace platform called "Satu Katering", covering system requirements analysis, UML diagrams, use case scenarios, UI design, and technology specification (hardware & software).
+                </CardDescription>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="secondary">System Analyst</Badge>
+                  <Badge variant="secondary">UML Diagram</Badge>
+                  <Badge variant="secondary">Use Case</Badge>
+                  <Badge variant="secondary">UI Design</Badge>
+                  <Badge variant="secondary">Technical Specification</Badge>
+
                 </div>
                 <div className="mt-auto">
                   <Button size="sm" className="gap-2 w-full">
