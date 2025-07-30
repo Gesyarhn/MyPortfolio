@@ -95,10 +95,11 @@ export default function Portfolio() {
               Besides data analysis, I also have knowledge and experience in business process analysis and digital system design.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm md:text-base">
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Data Analysis</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Intelligence</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Process Modeling</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">BPMN</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">UML Diagrams</span>
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Use Case Scenarios</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Requirement Analysis</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">UI Design</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Process Reengineering</span>
