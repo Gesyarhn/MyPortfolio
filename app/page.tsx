@@ -276,141 +276,8 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold text-center mb-12">Project</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
+
             {/* Project 1 */}
-            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/Branch Level Performance Analysis for a Coffee Shop Franchise.jpg"
-                  alt="Branch Level Performance Analysis"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2">
-                  Branch Level Performance Analysis for a Coffee Shop Franchise
-                </CardTitle>
-                <CardDescription className="mb-4">
-                  Developed an interactive Excel dashboard to analyze branch-level sales trends and recommend
-                  operational adjustments based on customer traffic patterns.
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">Excel</Badge>
-                  <Badge variant="secondary">Dashboard</Badge>
-                  <Badge variant="secondary">Sales Analysis</Badge>
-                  <Badge variant="secondary">Performance Metrics</Badge>
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full">
-                    <ExternalLink className="w-3 h-3" />
-                    View Project
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Project 2 */}
-            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/Visual Analysis of COVID-19 Spread in Indonesia (2020–2022) Using Tableau.jpg"
-                  alt="COVID-19 Analysis Indonesia"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2">
-                  Visual Analysis of COVID-19 Spread in Indonesia (2020–2022) Using Tableau
-                </CardTitle>
-                <CardDescription className="mb-4">
-                  Created interactive Tableau dashboards to visualize and explore 2.5 years of COVID-19 trends across 34
-                  Indonesian provinces.
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">Tableau</Badge>
-                  <Badge variant="secondary">Data Visualization</Badge>
-                  <Badge variant="secondary">Geographic Analysis</Badge>
-                  <Badge variant="secondary">Time Series</Badge>
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full">
-                    <ExternalLink className="w-3 h-3" />
-                    View Project
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Project 3 */}
-            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/Integrated Multi-Platform E-Commerce Sales Monitoring with Looker Studio.jpg"
-                  alt="E-Commerce Sales Monitoring"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2">
-                  Integrated Multi-Platform E-Commerce Sales Monitoring with Looker Studio
-                </CardTitle>
-                <CardDescription className="mb-4">
-                  Built a centralized Looker Studio dashboard to track sales performance across four e-commerce
-                  platforms and analyze key metrics like AOV and refund rates.
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">Looker Studio</Badge>
-                  <Badge variant="secondary">E-Commerce</Badge>
-                  <Badge variant="secondary">Multi-Platform</Badge>
-                  <Badge variant="secondary">KPI Tracking</Badge>
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full">
-                    <ExternalLink className="w-3 h-3" />
-                    View Project
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Project 4 */}
-            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/Sales Trend Analysis in Bike Retail.jpg"
-                  alt="Bike Retail Sales Analysis"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2">Sales Trend Analysis in Bike Retail</CardTitle>
-                <CardDescription className="mb-4">
-                  Analyzed customer purchasing behavior through dynamic Excel dashboards using pivot tables to uncover
-                  sales trends based on demographics.
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">Excel</Badge>
-                  <Badge variant="secondary">Pivot Tables</Badge>
-                  <Badge variant="secondary">Customer Analysis</Badge>
-                  <Badge variant="secondary">Demographics</Badge>
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full">
-                    <ExternalLink className="w-3 h-3" />
-                    View Project
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Project 5 */}
             <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
               <CardHeader className="p-0">
                 <Image
@@ -445,6 +312,140 @@ export default function Portfolio() {
                     >
                       <ExternalLink className="w-3 h-3" /> View Project
                     </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Project 2 */}
+            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+              <CardHeader className="p-0">
+                <Image
+                  src="/logos/Branch Level Performance Analysis for a Coffee Shop Franchise.jpg"
+                  alt="Branch Level Performance Analysis"
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg w-full h-[200px] object-cover"
+                />
+              </CardHeader>
+              <CardContent className="flex flex-col flex-grow p-4">
+                <CardTitle className="mb-2">
+                  Branch Level Performance Analysis for a Coffee Shop Franchise
+                </CardTitle>
+                <CardDescription className="mb-4">
+                  Developed an interactive Excel dashboard to analyze branch-level sales trends and recommend
+                  operational adjustments based on customer traffic patterns.
+                </CardDescription>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="secondary">Excel</Badge>
+                  <Badge variant="secondary">Dashboard</Badge>
+                  <Badge variant="secondary">Sales Analysis</Badge>
+                  <Badge variant="secondary">Performance Metrics</Badge>
+                </div>
+                <div className="mt-auto">
+                  <Button size="sm" className="gap-2 w-full">
+                    <ExternalLink className="w-3 h-3" />
+                    View Project
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Project 3 */}
+            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+              <CardHeader className="p-0">
+                <Image
+                  src="/logos/Visual Analysis of COVID-19 Spread in Indonesia (2020–2022) Using Tableau.jpg"
+                  alt="COVID-19 Analysis Indonesia"
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg w-full h-[200px] object-cover"
+                />
+              </CardHeader>
+              <CardContent className="flex flex-col flex-grow p-4">
+                <CardTitle className="mb-2">
+                  Visual Analysis of COVID-19 Spread in Indonesia (2020–2022) Using Tableau
+                </CardTitle>
+                <CardDescription className="mb-4">
+                  Created interactive Tableau dashboards to visualize and explore 2.5 years of COVID-19 trends across 34
+                  Indonesian provinces.
+                </CardDescription>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="secondary">Tableau</Badge>
+                  <Badge variant="secondary">Data Visualization</Badge>
+                  <Badge variant="secondary">Geographic Analysis</Badge>
+                  <Badge variant="secondary">Time Series</Badge>
+                </div>
+                <div className="mt-auto">
+                  <Button size="sm" className="gap-2 w-full">
+                    <ExternalLink className="w-3 h-3" />
+                    View Project
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Project 4 */}
+            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+              <CardHeader className="p-0">
+                <Image
+                  src="/logos/Integrated Multi-Platform E-Commerce Sales Monitoring with Looker Studio.jpg"
+                  alt="E-Commerce Sales Monitoring"
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg w-full h-[200px] object-cover"
+                />
+              </CardHeader>
+              <CardContent className="flex flex-col flex-grow p-4">
+                <CardTitle className="mb-2">
+                  Integrated Multi-Platform E-Commerce Sales Monitoring with Looker Studio
+                </CardTitle>
+                <CardDescription className="mb-4">
+                  Built a centralized Looker Studio dashboard to track sales performance across four e-commerce
+                  platforms and analyze key metrics like AOV and refund rates.
+                </CardDescription>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="secondary">Looker Studio</Badge>
+                  <Badge variant="secondary">E-Commerce</Badge>
+                  <Badge variant="secondary">Multi-Platform</Badge>
+                  <Badge variant="secondary">KPI Tracking</Badge>
+                </div>
+                <div className="mt-auto">
+                  <Button size="sm" className="gap-2 w-full">
+                    <ExternalLink className="w-3 h-3" />
+                    View Project
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Project 5 */}
+            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+              <CardHeader className="p-0">
+                <Image
+                  src="/logos/Sales Trend Analysis in Bike Retail.jpg"
+                  alt="Bike Retail Sales Analysis"
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg w-full h-[200px] object-cover"
+                />
+              </CardHeader>
+              <CardContent className="flex flex-col flex-grow p-4">
+                <CardTitle className="mb-2">Sales Trend Analysis in Bike Retail</CardTitle>
+                <CardDescription className="mb-4">
+                  Analyzed customer purchasing behavior through dynamic Excel dashboards using pivot tables to uncover
+                  sales trends based on demographics.
+                </CardDescription>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="secondary">Excel</Badge>
+                  <Badge variant="secondary">Pivot Tables</Badge>
+                  <Badge variant="secondary">Customer Analysis</Badge>
+                  <Badge variant="secondary">Demographics</Badge>
+                </div>
+                <div className="mt-auto">
+                  <Button size="sm" className="gap-2 w-full">
+                    <ExternalLink className="w-3 h-3" />
+                    View Project
                   </Button>
                 </div>
               </CardContent>
