@@ -517,9 +517,19 @@ export default function Portfolio() {
                 <p className="text-sm text-gray-300 mb-4">
                   Certification in business intelligence foundations and best practices
                 </p>
-                <Button size="sm" className="gap-2 bg-white text-black hover:bg-gray-100">
-                  <ExternalLink className="w-3 h-3" />
-                  View Certificate
+                <Button 
+                  size="sm" 
+                  className="gap-2 bg-white text-black hover:bg-gray-100" 
+                  asChild
+                >
+                  <a 
+                    href="https://drive.google.com/file/d/1o7Y-AzMz4BX1BbcF2zjqKa4mkrUxTesN/view?usp=sharing" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    View Certificate
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -537,9 +547,19 @@ export default function Portfolio() {
                 <p className="text-sm text-gray-300 mb-4">
                   Comprehensive certification in data analytics using Microsoft Excel
                 </p>
-                <Button size="sm" className="gap-2 bg-white text-black hover:bg-gray-100">
-                  <ExternalLink className="w-3 h-3" />
-                  View Certificate
+                <Button 
+                  size="sm" 
+                  className="gap-2 bg-white text-black hover:bg-gray-100" 
+                  asChild
+                >
+                  <a 
+                    href="https://drive.google.com/file/d/1o7Y-AzMz4BX1BbcF2zjqKa4mkrUxTesN/view?usp=sharing" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    View Certificate
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -619,9 +639,19 @@ export default function Portfolio() {
                 <p className="text-sm text-gray-300 mb-4">
                   Project-based virtual internship in product and business development
                 </p>
-                <Button size="sm" className="gap-2 bg-white text-black hover:bg-gray-100">
-                  <ExternalLink className="w-3 h-3" />
-                  View Certificate
+                <Button 
+                  size="sm" 
+                  className="gap-2 bg-white text-black hover:bg-gray-100" 
+                  asChild
+                >
+                  <a 
+                    href="https://drive.google.com/file/d/1oBh2TrIYZvka42LyW1h-ifl68cfMCDvA/view?usp=sharing" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    View Certificate
+                  </a>
                 </Button>
               </CardContent>
             </Card>
