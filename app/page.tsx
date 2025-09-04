@@ -343,9 +343,14 @@ export default function Portfolio() {
                   <Badge variant="secondary">Performance Metrics</Badge>
                 </div>
                 <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full">
-                    <ExternalLink className="w-3 h-3" />
-                    View Project
+                  <Button size="sm" className="gap-2 w-full" asChild>
+                    <a 
+                      href="https://drive.google.com/file/d/1-dZCQPP2HOpZXu8Vd3a5iWqIcHX4mlwe/view" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="w-3 h-3" /> View Project
+                    </a>
                   </Button>
                 </div>
               </CardContent>
@@ -552,9 +557,19 @@ export default function Portfolio() {
                 <p className="text-sm text-gray-300 mb-4">
                   CPD certified course in Excel for business analysis and reporting
                 </p>
-                <Button size="sm" className="gap-2 bg-white text-black hover:bg-gray-100">
-                  <ExternalLink className="w-3 h-3" />
-                  View Certificate
+                <Button 
+                  size="sm" 
+                  className="gap-2 bg-white text-black hover:bg-gray-100" 
+                  asChild
+                >
+                  <a 
+                    href="https://drive.google.com/file/d/1KwRCk704J3xsdqTzR8bYX7K8e6qyzOCR/view?usp=sharing" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    View Certificate
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -572,9 +587,19 @@ export default function Portfolio() {
                 <p className="text-sm text-gray-300 mb-4">
                   Certified System Analyst by Badan Nasional Sertifikasi Profesi
                 </p>
-                <Button size="sm" className="gap-2 bg-white text-black hover:bg-gray-100">
-                  <ExternalLink className="w-3 h-3" />
-                  View Certificate
+                <Button 
+                  size="sm" 
+                  className="gap-2 bg-white text-black hover:bg-gray-100" 
+                  asChild
+                >
+                  <a 
+                    href="https://drive.google.com/file/d/1Sp_F1_M749HbiCcc2x4grYzPfKv0Lch3/view?usp=sharing" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    View Certificate
+                  </a>
                 </Button>
               </CardContent>
             </Card>
