@@ -438,7 +438,12 @@ export default function Portfolio() {
                 </div>
                 <div className="mt-auto">
                   <Button size="sm" className="gap-2 w-full">
-                    <ExternalLink className="w-3 h-3" />
+                    <a 
+                      href="https://drive.google.com/file/d/1i_lFrO27umBB6sL6W9tdZsVq7kCloOC4/view?usp=sharing" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    ></a>
+                    <ExternalLink className="w-3 h-3" /> 
                     View Project
                   </Button>
                 </div>
