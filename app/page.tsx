@@ -469,7 +469,7 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent className="flex flex-col flex-grow p-4">
                 <CardTitle className="mb-2">
-                  Satu Katering - E-Catering Marketplace System
+                  Satu Katering - E-Catering Marketplace System Analysis
                 </CardTitle>
                 <CardDescription className="mb-4">
                   Final assessment project for System Analyst certification (BNSP). Designed an end-to-end online catering marketplace platform called "Satu Katering", covering system requirements analysis, UML diagrams, use case scenarios, UI design, and technology specification (hardware & software).
@@ -483,9 +483,14 @@ export default function Portfolio() {
 
                 </div>
                 <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full">
-                    <ExternalLink className="w-3 h-3" />
-                    View Project
+                  <Button size="sm" className="gap-2 w-full" asChild>
+                    <a 
+                      href="https://drive.google.com/file/d/1U5LxddlalzBFHzUz-HtB8TTUNN_3eMs5/view?usp=sharing" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="w-3 h-3" /> View Project
+                    </a>
                   </Button>
                 </div>
               </CardContent>
@@ -523,7 +528,7 @@ export default function Portfolio() {
                   asChild
                 >
                   <a 
-                    href="https://drive.google.com/file/d/1o7Y-AzMz4BX1BbcF2zjqKa4mkrUxTesN/view?usp=sharing" 
+                    href="https://drive.google.com/file/d/16tD16MvER0yVlAl98d6_LQ7h9UVZu621/view" 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
@@ -669,9 +674,19 @@ export default function Portfolio() {
                 <p className="text-sm text-gray-300 mb-4">
                   Comprehensive training in Excel and Power BI for business analysis
                 </p>
-                <Button size="sm" className="gap-2 bg-white text-black hover:bg-gray-100">
-                  <ExternalLink className="w-3 h-3" />
-                  View Certificate
+                <Button 
+                  size="sm" 
+                  className="gap-2 bg-white text-black hover:bg-gray-100" 
+                  asChild
+                >
+                  <a 
+                    href="https://drive.google.com/file/d/1O6iS1FoxpW5DN-XyXCu7gW3nkZo8RlJT/view" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    View Certificate
+                  </a>
                 </Button>
               </CardContent>
             </Card>
