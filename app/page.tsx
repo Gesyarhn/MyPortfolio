@@ -60,15 +60,12 @@ export default function Portfolio() {
               Hi, I'm <span className="text-primary">Gesya Reihan N</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Aspiring Data & Business Analyst
+              Business Process Management & Data Analytics Enthusiast
             </p>
 
             {/* Deskripsi */}
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Passionate about turning data into impact. I analyze, visualize, and translate numbers into
-              meaningful stories that support business growth and smarter decision making. I aim to bridge
-              the gap between data and strategy, helping teams understand what the numbers are saying and
-              how they can act on them effectively.
+              Passionate about improving business processes and driving data-informed decisions. With a background in Information Systems, I bridge the gap between process analysis and data analytics to support business growth and strategy execution. Skilled in analyzing workflows, reengineering processes, and translating data into actionable insights for smarter decision-making.
             </p>
 
             {/* Tombol Kontak */}
@@ -90,20 +87,23 @@ export default function Portfolio() {
 
           {/* 🔽 Bagian tambahan: skill highlights */}
           <div className="mt-10">
-            <h2 className="text-2xl md:text-xl font-semibold mb-4 text-primary">What I Also Know</h2>
+            {/* <h2 className="text-2xl md:text-xl font-semibold mb-4 text-primary">What I Also Know</h2>
             <p className="text-muted-foreground mb-6">
               Besides data analysis, I also have knowledge and experience in business process analysis and digital system design.
-            </p>
+            </p> */}
             <div className="flex flex-wrap justify-center gap-3 text-sm md:text-base">
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Data Analysis</span>
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Intelligence</span>
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Process Modeling</span>
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">BPMN</span>
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">UML Diagrams</span>
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Requirement Analysis</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Process Modeling & Notation (BPMN)</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Process Reengineering (BPR)</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Requirement Analysis & Documentation</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Process Mapping</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">UML Diagram</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Project Management</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">UI Design</span>
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Process Reengineering</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">System Analysis</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Data Analysis</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">SQL Query</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Statistics</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Database Management Systems</span>
             </div>
           </div>
         </div>
@@ -340,7 +340,8 @@ export default function Portfolio() {
                   <Badge variant="secondary">Excel</Badge>
                   <Badge variant="secondary">Dashboard</Badge>
                   <Badge variant="secondary">Sales Analysis</Badge>
-                  <Badge variant="secondary">Performance Metrics</Badge>
+                  <Badge variant="secondary">Pivot Table & Charts</Badge>
+                  <Badge variant="secondary">Filter & Slicers</Badge>
                 </div>
                 <div className="mt-auto">
                   <Button size="sm" className="gap-2 w-full" asChild>
@@ -507,6 +508,39 @@ export default function Portfolio() {
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold text-center mb-12 text-white">Certifications</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <Card className="group hover:shadow-lg transition-shadow bg-gray-900 border-gray-800">
+              <CardHeader className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
+                  <PresentationChart className="w-8 h-8 text-green-600" />
+                </div>
+                <CardTitle className="mb-2 text-white">
+                  Data Analytics Mini Course
+                </CardTitle>
+                <CardDescription className="text-gray-300">Data Analytics</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <Badge className="mb-2 bg-white text-black hover:bg-gray-100">RevoU</Badge>
+                <p className="text-sm text-gray-300 mb-4">
+                  Mini course on data analytics fundamentals, SQL, Excel, and visualization
+                </p>
+                <Button 
+                  size="sm" 
+                  className="gap-2 bg-white text-black hover:bg-gray-100" 
+                  asChild
+                >
+                  <a 
+                    href="https://drive.google.com/file/d/1nUDd4DYyhx5TiatUuTPaRj83EGvPCd0Y/view?usp=sharing" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    View Certificate
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+            
             <Card className="group hover:shadow-lg transition-shadow bg-gray-900 border-gray-800">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
@@ -699,8 +733,7 @@ export default function Portfolio() {
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold mb-8 text-black">Let's Work Together</h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            I'm always interested in new opportunities to apply data analysis and business intelligence skills. Whether
-            you have a project or just want to connect, feel free to reach out!
+            I'm eager to contribute in roles that combine business process improvement and data-driven decision making. Open to collaborations, projects, or professional connections. Feel free to get in touch!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="gap-2" asChild>
