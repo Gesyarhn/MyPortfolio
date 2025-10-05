@@ -276,13 +276,64 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold text-center mb-12">Project</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
+              <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+                <CardHeader className="p-0">
+                  <Image
+                    src="/logos/gambar_finpro data visualization.jpg" // Ganti dengan banner/gambar dashboard jika ada
+                    alt="Interactive Sales Performance Dashboard using Looker Studio"
+                    width={400}
+                    height={200}
+                    className="rounded-t-lg w-full h-[200px] object-cover"
+                  />
+                </CardHeader>
+                <CardContent className="flex flex-col flex-grow p-4">
+                  <CardTitle className="mb-2">
+                    Interactive Sales Performance Dashboard using Looker Studio (2022)
+                  </CardTitle>
+                  <CardDescription className="mb-4">
+                    Final project from MySkill Fullstack Data Analysis Bootcamp. Designed an interactive business intelligence dashboard using Looker Studio to analyze monthly sales trends, customer behavior, and profit contribution. Included scorecards, slicers, combo charts, treemaps, and tables to support decision-making for marketing and pricing strategies.
+                  </CardDescription>
 
-            {/* Project 1 */}
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <Badge variant="secondary">Data Analysis</Badge>
+                    <Badge variant="secondary">Data Visualization</Badge>
+                    <Badge variant="secondary">Looker Studio</Badge>
+                    <Badge variant="secondary">Dashboard Design</Badge>
+                    <Badge variant="secondary">E-Commerce Analytics</Badge>
+                  </div>
+
+                  <div className="mt-auto flex flex-col sm:flex-row gap-2">
+                    <Button size="sm" className="gap-2 flex-1" asChild>
+                      <a 
+                        href="https://drive.google.com/file/d/1sVeDVes2ziMrqGoD6bv3Ok8CsaAfI-dP/view?usp=sharing" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="w-3 h-3" /> View Project
+                      </a>
+                    </Button>
+
+                    {/* Optional Button Kedua, kalau kamu punya link dashboard live */}
+                    {/* <Button size="sm" className="gap-2 flex-1 bg-green-600 text-white hover:bg-green-700" asChild>
+                      <a 
+                        href="LINK_DASHBOARD_LOOKER_JIKA_ADA" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        <BarChart3 className="w-3 h-3" /> View Dashboard
+                      </a>
+                    </Button> */}
+                  </div>
+                </CardContent>
+              </Card>
+
+
+
             <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
               <CardHeader className="p-0">
                 <Image
-                  src="/logos/logo PJ_Logo only.jpg" // Ganti dengan gambar mockup atau logo project kamu
-                  alt="Rekayasa Proses Bisnis PT Permata Jaya Corp"
+                  src="/logos/gambar_project SQL.jpg" // Ganti dengan gambar mockup/sql/banner e-commerce kalau ada
+                  alt="E-Commerce Business Performance & Funnel Analysis Using SQL"
                   width={400}
                   height={200}
                   className="rounded-t-lg w-full h-[200px] object-cover"
@@ -290,23 +341,20 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent className="flex flex-col flex-grow p-4">
                 <CardTitle className="mb-2">
-                  Business Process Reengineering - PT Permata Jaya Corp
+                  E-Commerce Business Performance & Funnel Analysis Using SQL
                 </CardTitle>
                 <CardDescription className="mb-4">
-                  Final project for Business Process Reengineering (BPR) course. Analyzed and redesigned the core business processes of PT Permata Jaya Corp, a logistics company in Cikarang. Deliverables included AS-IS and TO-BE process models, gap analysis, and proposed IT-based improvements using BPMN diagrams.
+                  Final project from MySkill Fullstack Data Analysis Bootcamp. Conducted comprehensive SQL-based data analysis to evaluate sales performance, customer behavior, channel growth, and funnel conversion across 5 years of e-commerce transactions. Delivered actionable insights for revenue optimization, marketing strategy, and onboarding improvements.
                 </CardDescription>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">Business Process</Badge>
-                  <Badge variant="secondary">BPMN</Badge>
-                  <Badge variant="secondary">Gap Analysis</Badge>
-                  <Badge variant="secondary">To-Be Modeling</Badge>
-                  <Badge variant="secondary">Process Redesign</Badge>
-
+                  <Badge variant="secondary">Data Analysis</Badge>
+                  <Badge variant="secondary">PostgreSQL</Badge>
+                  <Badge variant="secondary">E-Commerce</Badge>
                 </div>
                 <div className="mt-auto">
                   <Button size="sm" className="gap-2 w-full" asChild>
                     <a 
-                      href="https://drive.google.com/file/d/1i_lFrO27umBB6sL6W9tdZsVq7kCloOC4/view?usp=sharing" 
+                      href="https://drive.google.com/file/d/16PjouLQCg9MYF44XC-HkxJ0Ctoy7p-1F/view?usp=sharing" 
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
@@ -316,6 +364,10 @@ export default function Portfolio() {
                 </div>
               </CardContent>
             </Card>
+
+            
+
+            {/* Project 1 */}
 
             {/* Project 2 */}
             <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
@@ -457,6 +509,45 @@ export default function Portfolio() {
               </CardContent>
             </Card>
 
+            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+              <CardHeader className="p-0">
+                <Image
+                  src="/logos/logo PJ_Logo only.jpg" // Ganti dengan gambar mockup atau logo project kamu
+                  alt="Rekayasa Proses Bisnis PT Permata Jaya Corp"
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg w-full h-[200px] object-cover"
+                />
+              </CardHeader>
+              <CardContent className="flex flex-col flex-grow p-4">
+                <CardTitle className="mb-2">
+                  Business Process Reengineering - PT Permata Jaya Corp
+                </CardTitle>
+                <CardDescription className="mb-4">
+                  Final project for Business Process Reengineering (BPR) course. Analyzed and redesigned the core business processes of PT Permata Jaya Corp, a logistics company in Cikarang. Deliverables included AS-IS and TO-BE process models, gap analysis, and proposed IT-based improvements using BPMN diagrams.
+                </CardDescription>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="secondary">Business Process</Badge>
+                  <Badge variant="secondary">BPMN</Badge>
+                  <Badge variant="secondary">Gap Analysis</Badge>
+                  <Badge variant="secondary">To-Be Modeling</Badge>
+                  <Badge variant="secondary">Process Redesign</Badge>
+
+                </div>
+                <div className="mt-auto">
+                  <Button size="sm" className="gap-2 w-full" asChild>
+                    <a 
+                      href="https://drive.google.com/file/d/1i_lFrO27umBB6sL6W9tdZsVq7kCloOC4/view?usp=sharing" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="w-3 h-3" /> View Project
+                    </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
             {/* Project 6*/}
             <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
               <CardHeader className="p-0">
@@ -509,6 +600,63 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold text-center mb-12 text-white">Certifications</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             
+            <Card className="group hover:shadow-lg transition-shadow bg-gray-900 border-gray-800 flex flex-col h-full">
+              <CardHeader className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
+                  <BarChart3 className="w-8 h-8 text-green-600" />
+                </div>
+                <CardTitle className="mb-2 text-white">
+                  Data Analysis : Fullstack Intensive Bootcamp
+                </CardTitle>
+                <CardDescription className="text-gray-300">Data Analytics</CardDescription>
+              </CardHeader>
+
+              <CardContent className="flex flex-col h-full text-center">
+                <div>
+                  <Badge className="mb-2 bg-white text-black hover:bg-gray-100">MySkill</Badge>
+                  <p className="text-sm text-gray-300 mb-4">
+                    Learned complete data analysis workflow including statistics, problem solving, SQL (basic to business case), Python for data analysis (NumPy, Pandas), and dashboard visualisation using Google Data Studio.
+                  </p>
+                </div>
+
+                <div className="mt-auto flex flex-col sm:flex-row gap-2">
+                    {/* Tombol Lihat Sertifikat */}
+                    <Button 
+                      size="sm" 
+                      className="gap-2 bg-white text-black hover:bg-gray-100 flex-1" 
+                      asChild
+                    >
+                      <a 
+                        href="https://drive.google.com/file/d/1dogliXnp9lBrX0PURvbmbc1nPS17e-Lj/view?usp=sharing" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="w-3 h-3" />
+                        View Certificate
+                      </a>
+                    </Button>
+
+                    {/* Tombol Lihat Nilai Final Project */}
+                    <Button 
+                      size="sm" 
+                      className="gap-2 bg-green-600 text-white hover:bg-green-700 flex-1" 
+                      asChild
+                    >
+                      <a 
+                        href="https://drive.google.com/file/d/1_tuwm2xklKH9PI0Ip2VeFsv9SghBUPb9/view?usp=sharing" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="w-3 h-3" />
+                        Raport Final Project
+                      </a>
+                    </Button>
+                  </div>
+
+              </CardContent>
+            </Card>
+
+
             <Card className="group hover:shadow-lg transition-shadow bg-gray-900 border-gray-800 flex flex-col h-full">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
