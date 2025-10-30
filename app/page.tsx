@@ -65,7 +65,7 @@ export default function Portfolio() {
 
             {/* Deskripsi */}
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Passionate about bridging business needs and technology through workflow and system analysis.Skilled in designing systems using Microsoft Visio, Visual Paradigm, and draw.io, and experienced in project tracking with Jira and Slack. Possess a strong understanding of the SDLC and programming concepts, with a focus on delivering scalable IT solutions that enable digital transformation and process efficiency.
+              Passionate about bridging business needs and technology through effective system analysis. With a background in Information Systems, I specialize in understanding user requirements,  modeling business processes, and designing efficient system solutions that align with organizational goals.  Skilled in UML and BPMN modeling, requirement gathering, and translating complex workflows  into structured and actionable system designs.
             </p>
 
             {/* Tombol Kontak */}
