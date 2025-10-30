@@ -65,7 +65,7 @@ export default function Portfolio() {
 
             {/* Deskripsi */}
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Passionate about bridging business needs and technology through effective system analysis. With a background in Information Systems, I specialize in understanding user requirements,  modeling business processes, and designing efficient system solutions that align with organizational goals.  Skilled in UML and BPMN modeling, requirement gathering, and translating complex workflows  into structured and actionable system designs.
+              Passionate about bridging business needs and technology through effective system analysis. With a background in Information Systems, I focus on understanding user requirements, modeling business processes, and designing efficient system solutions that align with organizational goals. Skilled in requirement gathering and process modeling (UML, BPMN), I enjoy translating complex workflows into clear, structured, and actionable system designs.
             </p>
 
             {/* Tombol Kontak */}
