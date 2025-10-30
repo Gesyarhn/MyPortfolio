@@ -60,12 +60,12 @@ export default function Portfolio() {
               Hi, I'm <span className="text-primary">Gesya Reihan N</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Business Process Management & Data Analytics Enthusiast
+              System Analysis & Data Analytics Enthusiast
             </p>
 
             {/* Deskripsi */}
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Passionate about improving business processes and driving data-informed decisions. With a background in Information Systems, I bridge the gap between process analysis and data analytics to support business growth and strategy execution. Skilled in analyzing workflows, reengineering processes, and translating data into actionable insights for smarter decision-making.
+              Passionate about bridging business needs and technology through workflow and system analysis.Skilled in designing systems using Microsoft Visio, Visual Paradigm, and draw.io, and experienced in project tracking with Jira and Slack. Possess a strong understanding of the SDLC and programming concepts, with a focus on delivering scalable IT solutions that enable digital transformation and process efficiency.
             </p>
 
             {/* Tombol Kontak */}
@@ -92,14 +92,16 @@ export default function Portfolio() {
               Besides data analysis, I also have knowledge and experience in business process analysis and digital system design.
             </p> */}
             <div className="flex flex-wrap justify-center gap-3 text-sm md:text-base">
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Process Modeling & Notation (BPMN)</span>
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Process Reengineering (BPR)</span>
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Requirement Analysis & Documentation</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Requirement Gathering & Analysis</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">System Analysis</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">SLDC Understanding</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">System Design</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Process Mapping</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Process Modeling & Notation (BPMN)</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">UML Diagram</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Flowchart</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Project Management</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">UI Design</span>
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">System Analysis</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Data Analysis</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">SQL Query</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Statistics</span>
@@ -113,7 +115,7 @@ export default function Portfolio() {
       <section id="skills" className="py-16 px-4 bg-black text-white">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold text-center mb-12">Skills & Technologies</h2>
-          <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-7 gap-8 items-center justify-items-center">
+          <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-7 gap-5 items-center justify-items-center">
             <div className="flex flex-col items-center group">
               <img
                 src="/logos/excel.png"
@@ -275,6 +277,45 @@ export default function Portfolio() {
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold text-center mb-12">Project</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+              <CardHeader className="p-0">
+                <Image
+                  src="/logos/Satu_Katering.jpg" // Ganti dengan gambar mockup atau logo project kamu
+                  alt="Rekayasa Proses Bisnis PT Permata Jaya Corp"
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg w-full h-[200px] object-cover"
+                />
+              </CardHeader>
+              <CardContent className="flex flex-col flex-grow p-4">
+                <CardTitle className="mb-2">
+                  Satu Katering - E-Catering Marketplace System Analysis
+                </CardTitle>
+                <CardDescription className="mb-4">
+                  Final assessment project for System Analyst certification (BNSP). Designed an end-to-end online catering marketplace platform called "Satu Katering", covering system requirements analysis, UML diagrams, use case scenarios, UI design, and technology specification (hardware & software).
+                </CardDescription>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="secondary">System Analyst</Badge>
+                  <Badge variant="secondary">UML Diagram</Badge>
+                  <Badge variant="secondary">Use Case</Badge>
+                  <Badge variant="secondary">UI Design</Badge>
+                  <Badge variant="secondary">Technical Specification</Badge>
+
+                </div>
+                <div className="mt-auto">
+                  <Button size="sm" className="gap-2 w-full" asChild>
+                    <a 
+                      href="https://drive.google.com/file/d/1U5LxddlalzBFHzUz-HtB8TTUNN_3eMs5/view?usp=sharing" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="w-3 h-3" /> View Project
+                    </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
 
               <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
                 <CardHeader className="p-0">
@@ -547,47 +588,6 @@ export default function Portfolio() {
                 </div>
               </CardContent>
             </Card>
-
-            {/* Project 6*/}
-            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/Satu_Katering.jpg" // Ganti dengan gambar mockup atau logo project kamu
-                  alt="Rekayasa Proses Bisnis PT Permata Jaya Corp"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2">
-                  Satu Katering - E-Catering Marketplace System Analysis
-                </CardTitle>
-                <CardDescription className="mb-4">
-                  Final assessment project for System Analyst certification (BNSP). Designed an end-to-end online catering marketplace platform called "Satu Katering", covering system requirements analysis, UML diagrams, use case scenarios, UI design, and technology specification (hardware & software).
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">System Analyst</Badge>
-                  <Badge variant="secondary">UML Diagram</Badge>
-                  <Badge variant="secondary">Use Case</Badge>
-                  <Badge variant="secondary">UI Design</Badge>
-                  <Badge variant="secondary">Technical Specification</Badge>
-
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full" asChild>
-                    <a 
-                      href="https://drive.google.com/file/d/1U5LxddlalzBFHzUz-HtB8TTUNN_3eMs5/view?usp=sharing" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="w-3 h-3" /> View Project
-                    </a>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
           </div>
         </div>
       </section>
@@ -599,7 +599,47 @@ export default function Portfolio() {
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold text-center mb-12 text-white">Certifications</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            
+            <Card className="group hover:shadow-lg transition-shadow bg-gray-900 border-gray-800 flex flex-col h-full">
+              <CardHeader className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-purple-100 rounded-full flex items-center justify-center">
+                  <Workflow className="w-8 h-8 text-purple-600" />
+                </div>
+                <CardTitle className="mb-2 text-white">
+                  System Analyst
+                </CardTitle>
+                <CardDescription className="text-gray-300">
+                  Professional System Analyst Certification
+                </CardDescription>
+              </CardHeader>
+
+              <CardContent className="flex flex-col h-full text-center">
+                {/* Bagian atas (badge + teks) */}
+                <div>
+                  <Badge className="mb-2 bg-white text-black hover:bg-gray-100">BNSP</Badge>
+                  <p className="text-sm text-gray-300 mb-4">
+                    Certified System Analyst by Badan Nasional Sertifikasi Profesi
+                  </p>
+                </div>
+
+                {/* Bagian bawah (button) */}
+                <div className="mt-auto">
+                  <Button
+                    size="sm"
+                    className="gap-2 bg-white text-black hover:bg-gray-100"
+                    asChild
+                  >
+                    <a
+                      href="https://drive.google.com/file/d/1Sp_F1_M749HbiCcc2x4grYzPfKv0Lch3/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="w-3 h-3" />
+                      View Certificate
+                    </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
             <Card className="group hover:shadow-lg transition-shadow bg-gray-900 border-gray-800 flex flex-col h-full">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
@@ -815,50 +855,6 @@ export default function Portfolio() {
               </div>
             </CardContent>
           </Card>
-
-
-            <Card className="group hover:shadow-lg transition-shadow bg-gray-900 border-gray-800 flex flex-col h-full">
-              <CardHeader className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 bg-purple-100 rounded-full flex items-center justify-center">
-                  <Workflow className="w-8 h-8 text-purple-600" />
-                </div>
-                <CardTitle className="mb-2 text-white">
-                  System Analyst
-                </CardTitle>
-                <CardDescription className="text-gray-300">
-                  Professional System Analyst Certification
-                </CardDescription>
-              </CardHeader>
-
-              <CardContent className="flex flex-col h-full text-center">
-                {/* Bagian atas (badge + teks) */}
-                <div>
-                  <Badge className="mb-2 bg-white text-black hover:bg-gray-100">BNSP</Badge>
-                  <p className="text-sm text-gray-300 mb-4">
-                    Certified System Analyst by Badan Nasional Sertifikasi Profesi
-                  </p>
-                </div>
-
-                {/* Bagian bawah (button) */}
-                <div className="mt-auto">
-                  <Button
-                    size="sm"
-                    className="gap-2 bg-white text-black hover:bg-gray-100"
-                    asChild
-                  >
-                    <a
-                      href="https://drive.google.com/file/d/1Sp_F1_M749HbiCcc2x4grYzPfKv0Lch3/view?usp=sharing"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="w-3 h-3" />
-                      View Certificate
-                    </a>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
 
             <Card className="group hover:shadow-lg transition-shadow bg-gray-900 border-gray-800 flex flex-col h-full">
               <CardHeader className="text-center">
