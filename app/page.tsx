@@ -296,7 +296,7 @@ export default function Portfolio() {
                   Final assessment project for System Analyst certification (BNSP). Designed an end-to-end online catering marketplace platform called "Satu Katering", covering system requirements analysis, UML diagrams, use case scenarios, UI design, and technology specification (hardware & software).
                 </CardDescription>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">System Analyst</Badge>
+                  <Badge variant="secondary">System Analysis</Badge>
                   <Badge variant="secondary">UML Diagram</Badge>
                   <Badge variant="secondary">Use Case</Badge>
                   <Badge variant="secondary">UI Design</Badge>
@@ -307,6 +307,167 @@ export default function Portfolio() {
                   <Button size="sm" className="gap-2 w-full" asChild>
                     <a 
                       href="https://drive.google.com/file/d/1U5LxddlalzBFHzUz-HtB8TTUNN_3eMs5/view?usp=sharing" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="w-3 h-3" /> View Project
+                    </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+              <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+                <CardHeader className="p-0">
+                  <Image
+                    src="/logos/Portfolio_Figma.jpg" // Ganti dengan banner/gambar dashboard jika ada
+                    alt="Interactive Sales Performance Dashboard using Looker Studio"
+                    width={400}
+                    height={200}
+                    className="rounded-t-lg w-full h-[200px] object-cover"
+                  />
+                </CardHeader>
+                <CardContent className="flex flex-col flex-grow p-4">
+                  <CardTitle className="mb-2">
+                    Logistics Distribution Platform - UI/UX Design
+                  </CardTitle>
+                  <CardDescription className="mb-4">
+                    A platform designed to enhance collaboration across logistics stakeholders by providing clear process flows, structured shipment data, and easy-to-navigate interfaces. The design improves decision-making and reduces operational complexity.
+                  </CardDescription>
+
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <Badge variant="secondary">UI/UX Design</Badge>
+                    <Badge variant="secondary">Mockup</Badge>
+                    <Badge variant="secondary">Prototype</Badge>
+                    <Badge variant="secondary">Figma</Badge>
+                  </div>
+
+                  <div className="mt-auto flex flex-col sm:flex-row gap-2">
+                    <Button size="sm" className="gap-2 flex-1" asChild>
+                      <a 
+                        href="https://www.figma.com/design/c45R07VdKNdtnwUN2EfPlL/Project-Tugas-Akhir?node-id=0-1&t=jR8uIBK1uewrvmJh-1" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="w-3 h-3" /> View Project
+                      </a>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+                <CardHeader className="p-0">
+                  <Image
+                    src="/logos/Foto_TA.jpg" // Ganti dengan banner/gambar dashboard jika ada
+                    alt="Interactive Sales Performance Dashboard using Looker Studio"
+                    width={400}
+                    height={200}
+                    className="rounded-t-lg w-full h-[200px] object-cover"
+                  />
+                </CardHeader>
+                <CardContent className="flex flex-col flex-grow p-4">
+                  <CardTitle className="mb-2">
+                    Design System for a Logistics Distribution Platform
+                  </CardTitle>
+                  <CardDescription className="mb-4">
+                    This final project focuses on designing a digital logistics distribution platform by applying a structured system analysis approach. The work involves gathering and validating user requirements, modeling business processes with BPMN, and designing system structures using UML diagrams such as Use Case, Activity, Sequence, and Class Diagrams.
+                  </CardDescription>
+
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <Badge variant="secondary">System Design</Badge>
+                    <Badge variant="secondary">Use Case Diagram</Badge>
+                    <Badge variant="secondary">Use Case Scenario</Badge>
+                    <Badge variant="secondary">Activity Diagram</Badge>
+                    <Badge variant="secondary">Sequence Diagram</Badge>
+                    <Badge variant="secondary">Class Diagram</Badge>
+                    <Badge variant="secondary">BPMN</Badge>
+                  </div>
+
+                  <div className="mt-auto flex flex-col sm:flex-row gap-2">
+                    <Button size="sm" className="gap-2 flex-1" asChild>
+                      <a 
+                        href="" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="w-3 h-3" /> View Project
+                      </a>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+                <CardHeader className="p-0">
+                  <Image
+                    src="/logos/EmoWell.jpg" // Ganti dengan banner/gambar dashboard jika ada
+                    alt="Interactive Sales Performance Dashboard using Looker Studio"
+                    width={400}
+                    height={200}
+                    className="rounded-t-lg w-full h-[200px] object-cover"
+                  />
+                </CardHeader>
+                <CardContent className="flex flex-col flex-grow p-4">
+                  <CardTitle className="mb-2">
+                    EmoWell - Student Counseling and Well Being Support Platform
+                  </CardTitle>
+                  <CardDescription className="mb-4">
+                    EmoWell is a web-based counseling platform designed to improve accessibility and responsiveness of mental health services for university students. The system enables students to schedule counseling sessions, access psychological article/resources, and communicate with counselors through a streamlined digital interface.
+                  </CardDescription>
+
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <Badge variant="secondary">Website Development</Badge>
+                    <Badge variant="secondary">Laravel</Badge>
+                    <Badge variant="secondary">Project Management</Badge>
+                    <Badge variant="secondary">Jira</Badge>
+                    <Badge variant="secondary">SDLC</Badge>
+                    <Badge variant="secondary">BPMN</Badge>
+                  </div>
+
+                  <div className="mt-auto flex flex-col sm:flex-row gap-2">
+                    <Button size="sm" className="gap-2 flex-1" asChild>
+                      <a 
+                        href="" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="w-3 h-3" /> View Project
+                      </a>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+              <CardHeader className="p-0">
+                <Image
+                  src="/logos/logo PJ_Logo only.jpg" // Ganti dengan gambar mockup atau logo project kamu
+                  alt="Rekayasa Proses Bisnis PT Permata Jaya Corp"
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg w-full h-[200px] object-cover"
+                />
+              </CardHeader>
+              <CardContent className="flex flex-col flex-grow p-4">
+                <CardTitle className="mb-2">
+                  Business Process Reengineering - PT Permata Jaya Corp
+                </CardTitle>
+                <CardDescription className="mb-4">
+                  Final project for Business Process Reengineering (BPR) course. Analyzed and redesigned the core business processes of PT Permata Jaya Corp, a logistics company in Cikarang. Deliverables included AS-IS and TO-BE process models, gap analysis, and proposed IT-based improvements using BPMN diagrams.
+                </CardDescription>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="secondary">Business Process</Badge>
+                  <Badge variant="secondary">BPMN</Badge>
+                  <Badge variant="secondary">Gap Analysis</Badge>
+                  <Badge variant="secondary">To-Be Modeling</Badge>
+                  <Badge variant="secondary">Process Redesign</Badge>
+
+                </div>
+                <div className="mt-auto">
+                  <Button size="sm" className="gap-2 w-full" asChild>
+                    <a 
+                      href="https://drive.google.com/file/d/1i_lFrO27umBB6sL6W9tdZsVq7kCloOC4/view?usp=sharing" 
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
@@ -367,6 +528,8 @@ export default function Portfolio() {
                   </div>
                 </CardContent>
               </Card>
+
+
 
 
 
@@ -550,44 +713,6 @@ export default function Portfolio() {
               </CardContent>
             </Card>
 
-            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/logo PJ_Logo only.jpg" // Ganti dengan gambar mockup atau logo project kamu
-                  alt="Rekayasa Proses Bisnis PT Permata Jaya Corp"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2">
-                  Business Process Reengineering - PT Permata Jaya Corp
-                </CardTitle>
-                <CardDescription className="mb-4">
-                  Final project for Business Process Reengineering (BPR) course. Analyzed and redesigned the core business processes of PT Permata Jaya Corp, a logistics company in Cikarang. Deliverables included AS-IS and TO-BE process models, gap analysis, and proposed IT-based improvements using BPMN diagrams.
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">Business Process</Badge>
-                  <Badge variant="secondary">BPMN</Badge>
-                  <Badge variant="secondary">Gap Analysis</Badge>
-                  <Badge variant="secondary">To-Be Modeling</Badge>
-                  <Badge variant="secondary">Process Redesign</Badge>
-
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full" asChild>
-                    <a 
-                      href="https://drive.google.com/file/d/1i_lFrO27umBB6sL6W9tdZsVq7kCloOC4/view?usp=sharing" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="w-3 h-3" /> View Project
-                    </a>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
@@ -640,6 +765,39 @@ export default function Portfolio() {
                 </div>
               </CardContent>
             </Card>
+
+            <Card className="group hover:shadow-lg transition-shadow bg-gray-900 border-gray-800">
+              <CardHeader className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
+                  <BarChart3 className="w-8 h-8 text-blue-600" />
+                </div>
+                <CardTitle className="mb-2 text-white">
+                  Understanding System Analysis
+                </CardTitle>
+                <CardDescription className="text-gray-300">Business Intelligence Foundation</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <Badge className="mb-2 bg-white text-black hover:bg-gray-100">Alison</Badge>
+                <p className="text-sm text-gray-300 mb-4">
+                  Certification in business intelligence foundations and best practices
+                </p>
+                <Button 
+                  size="sm" 
+                  className="gap-2 bg-white text-black hover:bg-gray-100" 
+                  asChild
+                >
+                  <a 
+                    href="https://drive.google.com/file/d/16tD16MvER0yVlAl98d6_LQ7h9UVZu621/view" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    View Certificate
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+
             <Card className="group hover:shadow-lg transition-shadow bg-gray-900 border-gray-800 flex flex-col h-full">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
