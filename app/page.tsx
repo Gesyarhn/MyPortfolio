@@ -724,6 +724,39 @@ export default function Portfolio() {
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold text-center mb-12 text-white">Certifications</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <Card className="group hover:shadow-lg transition-shadow bg-gray-900 border-gray-800">
+              <CardHeader className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
+                  <PresentationChart className="w-8 h-8 text-blue-600" />
+                </div>
+                <CardTitle className="mb-2 text-white">
+                  Understanding ERP Systems
+                </CardTitle>
+                <CardDescription className="text-gray-300">Enterprise Resource Planning (ERP) Course</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <Badge className="mb-2 bg-white text-black hover:bg-gray-100">Udemy</Badge>
+                <p className="text-sm text-gray-300 mb-4">
+                  This certification demonstrates how integrated enterprise systems support core business processes and improve data consistency across an organization.
+                </p>
+                <Button 
+                  size="sm" 
+                  className="gap-2 bg-white text-black hover:bg-gray-100" 
+                  asChild
+                >
+                  <a 
+                    href="https://drive.google.com/file/d/1--G5q1eu_yZ2UWEQcA9m77s6oNXgge7A/view?usp=sharing" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    View Certificate
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+
             <Card className="group hover:shadow-lg transition-shadow bg-gray-900 border-gray-800 flex flex-col h-full">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 bg-purple-100 rounded-full flex items-center justify-center">
@@ -774,12 +807,12 @@ export default function Portfolio() {
                 <CardTitle className="mb-2 text-white">
                   Understanding System Analysis
                 </CardTitle>
-                <CardDescription className="text-gray-300">Business Intelligence Foundation</CardDescription>
+                <CardDescription className="text-gray-300">System Analysis Course</CardDescription>
               </CardHeader>
               <CardContent className="text-center">
                 <Badge className="mb-2 bg-white text-black hover:bg-gray-100">Alison</Badge>
                 <p className="text-sm text-gray-300 mb-4">
-                  Certification in business intelligence foundations and best practices
+                  This certification demonstrates ability to systematically analyze organizational problems and propose feasible system solutions using structured methodologies.
                 </p>
                 <Button 
                   size="sm" 
@@ -787,7 +820,7 @@ export default function Portfolio() {
                   asChild
                 >
                   <a 
-                    href="https://drive.google.com/file/d/16tD16MvER0yVlAl98d6_LQ7h9UVZu621/view" 
+                    href="https://drive.google.com/file/d/1ewq9Tc8m1H07tQLcWkVwZTsOcxLNtHFm/view?usp=sharing" 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
