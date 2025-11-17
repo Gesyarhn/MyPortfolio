@@ -272,450 +272,443 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Projects Section */}
-      <section id="projects" className="py-16 px-4 bg-white">
-        <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold text-center mb-12">Project</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {/* System Analysis & Web Development Projects */}
+<section id="projects-system" className="py-16 px-4 bg-white">
+  <div className="container mx-auto max-w-6xl">
+    <h2 className="text-3xl font-bold text-center mb-12">
+      System Analysis & Web Development Projects
+    </h2>
 
-            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/Satu_Katering.jpg" // Ganti dengan gambar mockup atau logo project kamu
-                  alt="Rekayasa Proses Bisnis PT Permata Jaya Corp"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2">
-                  Satu Katering - E-Catering Marketplace System Analysis
-                </CardTitle>
-                <CardDescription className="mb-4">
-                  Final assessment project for System Analyst certification (BNSP). Designed an end-to-end online catering marketplace platform called "Satu Katering", covering system requirements analysis, UML diagrams, use case scenarios, UI design, and technology specification (hardware & software).
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">System Analysis</Badge>
-                  <Badge variant="secondary">UML Diagram</Badge>
-                  <Badge variant="secondary">Use Case</Badge>
-                  <Badge variant="secondary">UI Design</Badge>
-                  <Badge variant="secondary">Technical Specification</Badge>
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full" asChild>
-                    <a 
-                      href="https://drive.google.com/file/d/1U5LxddlalzBFHzUz-HtB8TTUNN_3eMs5/view?usp=sharing" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="w-3 h-3" /> View Project
-                    </a>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-              <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-                <CardHeader className="p-0">
-                  <Image
-                    src="/logos/Portfolio_Figma.jpg" // Ganti dengan banner/gambar dashboard jika ada
-                    alt="Interactive Sales Performance Dashboard using Looker Studio"
-                    width={400}
-                    height={200}
-                    className="rounded-t-lg w-full h-[200px] object-cover"
-                  />
-                </CardHeader>
-                <CardContent className="flex flex-col flex-grow p-4">
-                  <CardTitle className="mb-2">
-                    Logistics Distribution Platform - UI/UX Design
-                  </CardTitle>
-                  <CardDescription className="mb-4">
-                    A platform designed to enhance collaboration across logistics stakeholders by providing clear process flows, structured shipment data, and easy-to-navigate interfaces. The design improves decision-making and reduces operational complexity.
-                  </CardDescription>
-
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    <Badge variant="secondary">UI/UX Design</Badge>
-                    <Badge variant="secondary">Mockup</Badge>
-                    <Badge variant="secondary">Prototype</Badge>
-                    <Badge variant="secondary">Figma</Badge>
-                  </div>
-
-                  <div className="mt-auto flex flex-col sm:flex-row gap-2">
-                    <Button size="sm" className="gap-2 flex-1" asChild>
-                      <a 
-                        href="https://www.figma.com/design/c45R07VdKNdtnwUN2EfPlL/Project-Tugas-Akhir?node-id=0-1&t=jR8uIBK1uewrvmJh-1" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                      >
-                        <ExternalLink className="w-3 h-3" /> View Project
-                      </a>
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-                <CardHeader className="p-0">
-                  <Image
-                    src="/logos/Foto_TA.jpg" // Ganti dengan banner/gambar dashboard jika ada
-                    alt="Interactive Sales Performance Dashboard using Looker Studio"
-                    width={400}
-                    height={200}
-                    className="rounded-t-lg w-full h-[200px] object-cover"
-                  />
-                </CardHeader>
-                <CardContent className="flex flex-col flex-grow p-4">
-                  <CardTitle className="mb-2">
-                    Design System for a Logistics Distribution Platform
-                  </CardTitle>
-                  <CardDescription className="mb-4">
-                    This final project focuses on designing a digital logistics distribution platform by applying a structured system analysis approach. The work involves gathering and validating user requirements, modeling business processes with BPMN, and designing system structures using UML diagrams such as Use Case, Activity, Sequence, and Class Diagrams.
-                  </CardDescription>
-
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    <Badge variant="secondary">System Design</Badge>
-                    <Badge variant="secondary">Use Case Diagram</Badge>
-                    <Badge variant="secondary">Use Case Scenario</Badge>
-                    <Badge variant="secondary">Activity Diagram</Badge>
-                    <Badge variant="secondary">Sequence Diagram</Badge>
-                    <Badge variant="secondary">Class Diagram</Badge>
-                    <Badge variant="secondary">BPMN</Badge>
-                  </div>
-
-                  <div className="mt-auto flex flex-col sm:flex-row gap-2">
-                    <Button size="sm" className="gap-2 flex-1" asChild>
-                      <a 
-                        href="" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                      >
-                        <ExternalLink className="w-3 h-3" /> View Project
-                      </a>
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-                <CardHeader className="p-0">
-                  <Image
-                    src="/logos/EmoWell.jpg" // Ganti dengan banner/gambar dashboard jika ada
-                    alt="Interactive Sales Performance Dashboard using Looker Studio"
-                    width={400}
-                    height={200}
-                    className="rounded-t-lg w-full h-[200px] object-cover"
-                  />
-                </CardHeader>
-                <CardContent className="flex flex-col flex-grow p-4">
-                  <CardTitle className="mb-2">
-                    EmoWell - Student Counseling and Well Being Support Platform
-                  </CardTitle>
-                  <CardDescription className="mb-4">
-                    EmoWell is a web-based counseling platform designed to improve accessibility and responsiveness of mental health services for university students. The system enables students to schedule counseling sessions, access psychological article/resources, and communicate with counselors through a streamlined digital interface.
-                  </CardDescription>
-
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    <Badge variant="secondary">Website Development</Badge>
-                    <Badge variant="secondary">Laravel</Badge>
-                    <Badge variant="secondary">Project Management</Badge>
-                    <Badge variant="secondary">Jira</Badge>
-                    <Badge variant="secondary">SDLC</Badge>
-                    <Badge variant="secondary">BPMN</Badge>
-                  </div>
-
-                  <div className="mt-auto flex flex-col sm:flex-row gap-2">
-                    <Button size="sm" className="gap-2 flex-1" asChild>
-                      <a 
-                        href="" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                      >
-                        <ExternalLink className="w-3 h-3" /> View Project
-                      </a>
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/logo PJ_Logo only.jpg" // Ganti dengan gambar mockup atau logo project kamu
-                  alt="Rekayasa Proses Bisnis PT Permata Jaya Corp"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2">
-                  Business Process Reengineering - PT Permata Jaya Corp
-                </CardTitle>
-                <CardDescription className="mb-4">
-                  Final project for Business Process Reengineering (BPR) course. Analyzed and redesigned the core business processes of PT Permata Jaya Corp, a logistics company in Cikarang. Deliverables included AS-IS and TO-BE process models, gap analysis, and proposed IT-based improvements using BPMN diagrams.
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">Business Process</Badge>
-                  <Badge variant="secondary">BPMN</Badge>
-                  <Badge variant="secondary">Gap Analysis</Badge>
-                  <Badge variant="secondary">To-Be Modeling</Badge>
-                  <Badge variant="secondary">Process Redesign</Badge>
-
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full" asChild>
-                    <a 
-                      href="https://drive.google.com/file/d/1i_lFrO27umBB6sL6W9tdZsVq7kCloOC4/view?usp=sharing" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="w-3 h-3" /> View Project
-                    </a>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-              <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-                <CardHeader className="p-0">
-                  <Image
-                    src="/logos/gambar_finpro data visualization.jpg" // Ganti dengan banner/gambar dashboard jika ada
-                    alt="Interactive Sales Performance Dashboard using Looker Studio"
-                    width={400}
-                    height={200}
-                    className="rounded-t-lg w-full h-[200px] object-cover"
-                  />
-                </CardHeader>
-                <CardContent className="flex flex-col flex-grow p-4">
-                  <CardTitle className="mb-2">
-                    Interactive Sales Performance Dashboard using Looker Studio (2022)
-                  </CardTitle>
-                  <CardDescription className="mb-4">
-                    Final project from MySkill Fullstack Data Analysis Bootcamp. Designed an interactive business intelligence dashboard using Looker Studio to analyze monthly sales trends, customer behavior, and profit contribution. Included scorecards, slicers, combo charts, treemaps, and tables to support decision-making for marketing and pricing strategies.
-                  </CardDescription>
-
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    <Badge variant="secondary">Data Analysis</Badge>
-                    <Badge variant="secondary">Data Visualization</Badge>
-                    <Badge variant="secondary">Looker Studio</Badge>
-                    <Badge variant="secondary">Dashboard Design</Badge>
-                    <Badge variant="secondary">E-Commerce Analytics</Badge>
-                  </div>
-
-                  <div className="mt-auto flex flex-col sm:flex-row gap-2">
-                    <Button size="sm" className="gap-2 flex-1" asChild>
-                      <a 
-                        href="https://drive.google.com/file/d/1sVeDVes2ziMrqGoD6bv3Ok8CsaAfI-dP/view?usp=sharing" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                      >
-                        <ExternalLink className="w-3 h-3" /> View Project
-                      </a>
-                    </Button>
-
-                    {/* Optional Button Kedua, kalau kamu punya link dashboard live */}
-                    {/* <Button size="sm" className="gap-2 flex-1 bg-green-600 text-white hover:bg-green-700" asChild>
-                      <a 
-                        href="LINK_DASHBOARD_LOOKER_JIKA_ADA" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                      >
-                        <BarChart3 className="w-3 h-3" /> View Dashboard
-                      </a>
-                    </Button> */}
-                  </div>
-                </CardContent>
-              </Card>
-
-
-
-
-
-            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/gambar_project SQL.jpg" // Ganti dengan gambar mockup/sql/banner e-commerce kalau ada
-                  alt="E-Commerce Business Performance & Funnel Analysis Using SQL"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2">
-                  E-Commerce Business Performance & Funnel Analysis Using SQL
-                </CardTitle>
-                <CardDescription className="mb-4">
-                  Final project from MySkill Fullstack Data Analysis Bootcamp. Conducted comprehensive SQL-based data analysis to evaluate sales performance, customer behavior, channel growth, and funnel conversion across 5 years of e-commerce transactions. Delivered actionable insights for revenue optimization, marketing strategy, and onboarding improvements.
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">Data Analysis</Badge>
-                  <Badge variant="secondary">PostgreSQL</Badge>
-                  <Badge variant="secondary">E-Commerce</Badge>
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full" asChild>
-                    <a 
-                      href="https://drive.google.com/file/d/16PjouLQCg9MYF44XC-HkxJ0Ctoy7p-1F/view?usp=sharing" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="w-3 h-3" /> View Project
-                    </a>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            
-
-            {/* Project 1 */}
-
-            {/* Project 2 */}
-            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/Branch Level Performance Analysis for a Coffee Shop Franchise.jpg"
-                  alt="Branch Level Performance Analysis"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2">
-                  Branch Level Performance Analysis for a Coffee Shop Franchise
-                </CardTitle>
-                <CardDescription className="mb-4">
-                  Developed an interactive Excel dashboard to analyze branch-level sales trends and recommend
-                  operational adjustments based on customer traffic patterns.
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">Excel</Badge>
-                  <Badge variant="secondary">Dashboard</Badge>
-                  <Badge variant="secondary">Sales Analysis</Badge>
-                  <Badge variant="secondary">Pivot Table & Charts</Badge>
-                  <Badge variant="secondary">Filter & Slicers</Badge>
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full" asChild>
-                    <a 
-                      href="https://drive.google.com/file/d/1-dZCQPP2HOpZXu8Vd3a5iWqIcHX4mlwe/view" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="w-3 h-3" /> View Project
-                    </a>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Project 3 */}
-            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/Visual Analysis of COVID-19 Spread in Indonesia (2020–2022) Using Tableau.jpg"
-                  alt="COVID-19 Analysis Indonesia"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2">
-                  Visual Analysis of COVID-19 Spread in Indonesia (2020–2022) Using Tableau
-                </CardTitle>
-                <CardDescription className="mb-4">
-                  Created interactive Tableau dashboards to visualize and explore 2.5 years of COVID-19 trends across 34
-                  Indonesian provinces.
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">Tableau</Badge>
-                  <Badge variant="secondary">Data Visualization</Badge>
-                  <Badge variant="secondary">Geographic Analysis</Badge>
-                  <Badge variant="secondary">Time Series</Badge>
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full">
-                    <ExternalLink className="w-3 h-3" />
-                    View Project
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Project 4 */}
-            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/Integrated Multi-Platform E-Commerce Sales Monitoring with Looker Studio.jpg"
-                  alt="E-Commerce Sales Monitoring"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2">
-                  Integrated Multi-Platform E-Commerce Sales Monitoring with Looker Studio
-                </CardTitle>
-                <CardDescription className="mb-4">
-                  Built a centralized Looker Studio dashboard to track sales performance across four e-commerce
-                  platforms and analyze key metrics like AOV and refund rates.
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">Looker Studio</Badge>
-                  <Badge variant="secondary">E-Commerce</Badge>
-                  <Badge variant="secondary">Multi-Platform</Badge>
-                  <Badge variant="secondary">KPI Tracking</Badge>
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full">
-                    <ExternalLink className="w-3 h-3" />
-                    View Project
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Project 5 */}
-            <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/Sales Trend Analysis in Bike Retail.jpg"
-                  alt="Bike Retail Sales Analysis"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2">Sales Trend Analysis in Bike Retail</CardTitle>
-                <CardDescription className="mb-4">
-                  Analyzed customer purchasing behavior through dynamic Excel dashboards using pivot tables to uncover
-                  sales trends based on demographics.
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary">Excel</Badge>
-                  <Badge variant="secondary">Pivot Tables</Badge>
-                  <Badge variant="secondary">Customer Analysis</Badge>
-                  <Badge variant="secondary">Demographics</Badge>
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full">
-                    <ExternalLink className="w-3 h-3" />
-                    View Project
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
+      {/* Satu Katering */}
+      <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+        <CardHeader className="p-0">
+          <Image
+            src="/logos/Satu_Katering.jpg"
+            alt="Satu Katering - E-Catering Marketplace System Analysis"
+            width={400}
+            height={200}
+            className="rounded-t-lg w-full h-[200px] object-cover"
+          />
+        </CardHeader>
+        <CardContent className="flex flex-col flex-grow p-4">
+          <CardTitle className="mb-2">
+            Satu Katering - E-Catering Marketplace System Analysis
+          </CardTitle>
+          <CardDescription className="mb-4">
+            Final assessment project for System Analyst certification (BNSP). Designed an end-to-end online catering marketplace platform called "Satu Katering", covering system requirements analysis, UML diagrams, use case scenarios, UI design, and technology specification (hardware & software).
+          </CardDescription>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <Badge variant="secondary">System Analysis</Badge>
+            <Badge variant="secondary">UML Diagram</Badge>
+            <Badge variant="secondary">Use Case</Badge>
+            <Badge variant="secondary">UI Design</Badge>
+            <Badge variant="secondary">Technical Specification</Badge>
           </div>
-        </div>
-      </section>
+          <div className="mt-auto">
+            <Button size="sm" className="gap-2 w-full" asChild>
+              <a 
+                href="https://drive.google.com/file/d/1U5LxddlalzBFHzUz-HtB8TTUNN_3eMs5/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <ExternalLink className="w-3 h-3" /> View Project
+              </a>
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Logistics Distribution Platform - UI/UX Design */}
+      <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+        <CardHeader className="p-0">
+          <Image
+            src="/logos/Portfolio_Figma.jpg"
+            alt="Logistics Distribution Platform - UI/UX Design"
+            width={400}
+            height={200}
+            className="rounded-t-lg w-full h-[200px] object-cover"
+          />
+        </CardHeader>
+        <CardContent className="flex flex-col flex-grow p-4">
+          <CardTitle className="mb-2">
+            Logistics Distribution Platform - UI/UX Design
+          </CardTitle>
+          <CardDescription className="mb-4">
+            A platform designed to enhance collaboration across logistics stakeholders by providing clear process flows, structured shipment data, and easy-to-navigate interfaces. The design improves decision-making and reduces operational complexity.
+          </CardDescription>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <Badge variant="secondary">UI/UX Design</Badge>
+            <Badge variant="secondary">Mockup</Badge>
+            <Badge variant="secondary">Prototype</Badge>
+            <Badge variant="secondary">Figma</Badge>
+          </div>
+          <div className="mt-auto flex flex-col sm:flex-row gap-2">
+            <Button size="sm" className="gap-2 flex-1" asChild>
+              <a 
+                href="https://www.figma.com/design/c45R07VdKNdtnwUN2EfPlL/Project-Tugas-Akhir?node-id=0-1&t=jR8uIBK1uewrvmJh-1" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <ExternalLink className="w-3 h-3" /> View Project
+              </a>
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Design System for a Logistics Distribution Platform (TA) */}
+      <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+        <CardHeader className="p-0">
+          <Image
+            src="/logos/Foto_TA.jpg"
+            alt="Design System for a Logistics Distribution Platform"
+            width={400}
+            height={200}
+            className="rounded-t-lg w-full h-[200px] object-cover"
+          />
+        </CardHeader>
+        <CardContent className="flex flex-col flex-grow p-4">
+          <CardTitle className="mb-2">
+            Design System for a Logistics Distribution Platform
+          </CardTitle>
+          <CardDescription className="mb-4">
+            This final project focuses on designing a digital logistics distribution platform by applying a structured system analysis approach. The work involves gathering and validating user requirements, modeling business processes with BPMN, and designing system structures using UML diagrams such as Use Case, Activity, Sequence, and Class Diagrams.
+          </CardDescription>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <Badge variant="secondary">System Design</Badge>
+            <Badge variant="secondary">Use Case Diagram</Badge>
+            <Badge variant="secondary">Use Case Scenario</Badge>
+            <Badge variant="secondary">Activity Diagram</Badge>
+            <Badge variant="secondary">Sequence Diagram</Badge>
+            <Badge variant="secondary">Class Diagram</Badge>
+            <Badge variant="secondary">BPMN</Badge>
+          </div>
+          <div className="mt-auto flex flex-col sm:flex-row gap-2">
+            <Button size="sm" className="gap-2 flex-1" asChild>
+              <a 
+                href="https://drive.google.com/file/d/1J11PD_7_oP9zXQYkzEH_BWF7Kq6Oa8gT/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <ExternalLink className="w-3 h-3" /> View Project
+              </a>
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* EmoWell */}
+      <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+        <CardHeader className="p-0">
+          <Image
+            src="/logos/EmoWell.jpg"
+            alt="EmoWell - Student Counseling and Well Being Support Platform"
+            width={400}
+            height={200}
+            className="rounded-t-lg w-full h-[200px] object-cover"
+          />
+        </CardHeader>
+        <CardContent className="flex flex-col flex-grow p-4">
+          <CardTitle className="mb-2">
+            EmoWell - Student Counseling and Well Being Support Platform
+          </CardTitle>
+          <CardDescription className="mb-4">
+            EmoWell is a web-based counseling platform designed to improve accessibility and responsiveness of mental health services for university students. The system enables students to schedule counseling sessions, access psychological article/resources, and communicate with counselors through a streamlined digital interface.
+          </CardDescription>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <Badge variant="secondary">Website Development</Badge>
+            <Badge variant="secondary">Laravel</Badge>
+            <Badge variant="secondary">Project Management</Badge>
+            <Badge variant="secondary">Jira</Badge>
+            <Badge variant="secondary">SDLC</Badge>
+            <Badge variant="secondary">BPMN</Badge>
+          </div>
+          <div className="mt-auto flex flex-col sm:flex-row gap-2">
+            <Button size="sm" className="gap-2 flex-1" asChild>
+              <a 
+                href="" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <ExternalLink className="w-3 h-3" /> View Project
+              </a>
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Business Process Reengineering - PT Permata Jaya Corp */}
+      <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+        <CardHeader className="p-0">
+          <Image
+            src="/logos/logo PJ_Logo only.jpg"
+            alt="Business Process Reengineering - PT Permata Jaya Corp"
+            width={400}
+            height={200}
+            className="rounded-t-lg w-full h-[200px] object-cover"
+          />
+        </CardHeader>
+        <CardContent className="flex flex-col flex-grow p-4">
+          <CardTitle className="mb-2">
+            Business Process Reengineering - PT Permata Jaya Corp
+          </CardTitle>
+          <CardDescription className="mb-4">
+            Final project for Business Process Reengineering (BPR) course. Analyzed and redesigned the core business processes of PT Permata Jaya Corp, a logistics company in Cikarang. Deliverables included AS-IS and TO-BE process models, gap analysis, and proposed IT-based improvements using BPMN diagrams.
+          </CardDescription>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <Badge variant="secondary">Business Process</Badge>
+            <Badge variant="secondary">BPMN</Badge>
+            <Badge variant="secondary">Gap Analysis</Badge>
+            <Badge variant="secondary">To-Be Modeling</Badge>
+            <Badge variant="secondary">Process Redesign</Badge>
+          </div>
+          <div className="mt-auto">
+            <Button size="sm" className="gap-2 w-full" asChild>
+              <a 
+                href="https://drive.google.com/file/d/1i_lFrO27umBB6sL6W9tdZsVq7kCloOC4/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <ExternalLink className="w-3 h-3" /> View Project
+              </a>
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+
+    </div>
+  </div>
+</section>
+
+{/* Data Analytics Projects */}
+<section id="projects-data" className="py-16 px-4 bg-white">
+  <div className="container mx-auto max-w-6xl">
+    <h2 className="text-3xl font-bold text-center mb-12">
+      Data Analytics Projects
+    </h2>
+
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      {/* Interactive Sales Performance Dashboard using Looker Studio */}
+      <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+        <CardHeader className="p-0">
+          <Image
+            src="/logos/gambar_finpro data visualization.jpg"
+            alt="Interactive Sales Performance Dashboard using Looker Studio"
+            width={400}
+            height={200}
+            className="rounded-t-lg w-full h-[200px] object-cover"
+          />
+        </CardHeader>
+        <CardContent className="flex flex-col flex-grow p-4">
+          <CardTitle className="mb-2">
+            Interactive Sales Performance Dashboard using Looker Studio (2022)
+          </CardTitle>
+          <CardDescription className="mb-4">
+            Final project from MySkill Fullstack Data Analysis Bootcamp. Designed an interactive business intelligence dashboard using Looker Studio to analyze monthly sales trends, customer behavior, and profit contribution. Included scorecards, slicers, combo charts, treemaps, and tables to support decision-making for marketing and pricing strategies.
+          </CardDescription>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <Badge variant="secondary">Data Analysis</Badge>
+            <Badge variant="secondary">Data Visualization</Badge>
+            <Badge variant="secondary">Looker Studio</Badge>
+            <Badge variant="secondary">Dashboard Design</Badge>
+            <Badge variant="secondary">E-Commerce Analytics</Badge>
+          </div>
+          <div className="mt-auto flex flex-col sm:flex-row gap-2">
+            <Button size="sm" className="gap-2 flex-1" asChild>
+              <a 
+                href="https://drive.google.com/file/d/1sVeDVes2ziMrqGoD6bv3Ok8CsaAfI-dP/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <ExternalLink className="w-3 h-3" /> View Project
+              </a>
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* E-Commerce Business Performance & Funnel Analysis Using SQL */}
+      <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+        <CardHeader className="p-0">
+          <Image
+            src="/logos/gambar_project SQL.jpg"
+            alt="E-Commerce Business Performance & Funnel Analysis Using SQL"
+            width={400}
+            height={200}
+            className="rounded-t-lg w-full h-[200px] object-cover"
+          />
+        </CardHeader>
+        <CardContent className="flex flex-col flex-grow p-4">
+          <CardTitle className="mb-2">
+            E-Commerce Business Performance & Funnel Analysis Using SQL
+          </CardTitle>
+          <CardDescription className="mb-4">
+            Final project from MySkill Fullstack Data Analysis Bootcamp. Conducted comprehensive SQL-based data analysis to evaluate sales performance, customer behavior, channel growth, and funnel conversion across 5 years of e-commerce transactions. Delivered actionable insights for revenue optimization, marketing strategy, and onboarding improvements.
+          </CardDescription>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <Badge variant="secondary">Data Analysis</Badge>
+            <Badge variant="secondary">PostgreSQL</Badge>
+            <Badge variant="secondary">E-Commerce</Badge>
+          </div>
+          <div className="mt-auto">
+            <Button size="sm" className="gap-2 w-full" asChild>
+              <a 
+                href="https://drive.google.com/file/d/16PjouLQCg9MYF44XC-HkxJ0Ctoy7p-1F/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <ExternalLink className="w-3 h-3" /> View Project
+              </a>
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Branch Level Performance Analysis for a Coffee Shop Franchise */}
+      <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+        <CardHeader className="p-0">
+          <Image
+            src="/logos/Branch Level Performance Analysis for a Coffee Shop Franchise.jpg"
+            alt="Branch Level Performance Analysis for a Coffee Shop Franchise"
+            width={400}
+            height={200}
+            className="rounded-t-lg w-full h-[200px] object-cover"
+          />
+        </CardHeader>
+        <CardContent className="flex flex-col flex-grow p-4">
+          <CardTitle className="mb-2">
+            Branch Level Performance Analysis for a Coffee Shop Franchise
+          </CardTitle>
+          <CardDescription className="mb-4">
+            Developed an interactive Excel dashboard to analyze branch-level sales trends and recommend operational adjustments based on customer traffic patterns.
+          </CardDescription>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <Badge variant="secondary">Excel</Badge>
+            <Badge variant="secondary">Dashboard</Badge>
+            <Badge variant="secondary">Sales Analysis</Badge>
+            <Badge variant="secondary">Pivot Table & Charts</Badge>
+            <Badge variant="secondary">Filter & Slicers</Badge>
+          </div>
+          <div className="mt-auto">
+            <Button size="sm" className="gap-2 w-full" asChild>
+              <a 
+                href="https://drive.google.com/file/d/1-dZCQPP2HOpZXu8Vd3a5iWqIcHX4mlwe/view" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <ExternalLink className="w-3 h-3" /> View Project
+              </a>
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Visual Analysis of COVID-19 Spread in Indonesia Using Tableau */}
+      <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+        <CardHeader className="p-0">
+          <Image
+            src="/logos/Visual Analysis of COVID-19 Spread in Indonesia (2020–2022) Using Tableau.jpg"
+            alt="Visual Analysis of COVID-19 Spread in Indonesia (2020–2022) Using Tableau"
+            width={400}
+            height={200}
+            className="rounded-t-lg w-full h-[200px] object-cover"
+          />
+        </CardHeader>
+        <CardContent className="flex flex-col flex-grow p-4">
+          <CardTitle className="mb-2">
+            Visual Analysis of COVID-19 Spread in Indonesia (2020–2022) Using Tableau
+          </CardTitle>
+          <CardDescription className="mb-4">
+            Created interactive Tableau dashboards to visualize and explore 2.5 years of COVID-19 trends across 34 Indonesian provinces.
+          </CardDescription>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <Badge variant="secondary">Tableau</Badge>
+            <Badge variant="secondary">Data Visualization</Badge>
+            <Badge variant="secondary">Geographic Analysis</Badge>
+            <Badge variant="secondary">Time Series</Badge>
+          </div>
+          <div className="mt-auto">
+            <Button size="sm" className="gap-2 w-full">
+              <ExternalLink className="w-3 h-3" />
+              View Project
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Integrated Multi-Platform E-Commerce Sales Monitoring with Looker Studio */}
+      <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+        <CardHeader className="p-0">
+          <Image
+            src="/logos/Integrated Multi-Platform E-Commerce Sales Monitoring with Looker Studio.jpg"
+            alt="Integrated Multi-Platform E-Commerce Sales Monitoring with Looker Studio"
+            width={400}
+            height={200}
+            className="rounded-t-lg w-full h-[200px] object-cover"
+          />
+        </CardHeader>
+        <CardContent className="flex flex-col flex-grow p-4">
+          <CardTitle className="mb-2">
+            Integrated Multi-Platform E-Commerce Sales Monitoring with Looker Studio
+          </CardTitle>
+          <CardDescription className="mb-4">
+            Built a centralized Looker Studio dashboard to track sales performance across four e-commerce platforms and analyze key metrics like AOV and refund rates.
+          </CardDescription>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <Badge variant="secondary">Looker Studio</Badge>
+            <Badge variant="secondary">E-Commerce</Badge>
+            <Badge variant="secondary">Multi-Platform</Badge>
+            <Badge variant="secondary">KPI Tracking</Badge>
+          </div>
+          <div className="mt-auto">
+            <Button size="sm" className="gap-2 w-full">
+              <ExternalLink className="w-3 h-3" />
+              View Project
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Sales Trend Analysis in Bike Retail */}
+      <Card className="group hover:shadow-lg transition-shadow flex flex-col h-full">
+        <CardHeader className="p-0">
+          <Image
+            src="/logos/Sales Trend Analysis in Bike Retail.jpg"
+            alt="Sales Trend Analysis in Bike Retail"
+            width={400}
+            height={200}
+            className="rounded-t-lg w-full h-[200px] object-cover"
+          />
+        </CardHeader>
+        <CardContent className="flex flex-col flex-grow p-4">
+          <CardTitle className="mb-2">
+            Sales Trend Analysis in Bike Retail
+          </CardTitle>
+          <CardDescription className="mb-4">
+            Analyzed customer purchasing behavior through dynamic Excel dashboards using pivot tables to uncover sales trends based on demographics.
+          </CardDescription>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <Badge variant="secondary">Excel</Badge>
+            <Badge variant="secondary">Pivot Tables</Badge>
+            <Badge variant="secondary">Customer Analysis</Badge>
+            <Badge variant="secondary">Demographics</Badge>
+          </div>
+          <div className="mt-auto">
+            <Button size="sm" className="gap-2 w-full">
+              <ExternalLink className="w-3 h-3" />
+              View Project
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+
+    </div>
+  </div>
+</section>
+
 
 
 
