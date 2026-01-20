@@ -105,7 +105,7 @@ export default function Portfolio() {
           <div className="mb-8">
             {/* Nama dan Role */}
             <h1 className="text-4xl md:text-6xl font-bold mb-4 pt-[50px] text-slate-900">
-              Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-800 to-blue-800">Gesya Reihan N</span>
+              Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-800 to-blue-800">Gesya Reihan Nurbayan</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-600 mb-8">
               System Analysis & SAP Implementation Enthusiast
