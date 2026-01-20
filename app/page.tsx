@@ -60,12 +60,12 @@ export default function Portfolio() {
               Hi, I'm <span className="text-primary">Gesya Reihan N</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              System Analysis & Data Analytics Enthusiast
+              System Analysis & SAP Implementation Enthusiast
             </p>
 
             {/* Deskripsi */}
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Passionate about bridging business needs and technology through effective system analysis. With a background in Information Systems, I focus on understanding user requirements, modeling business processes, and designing efficient system solutions that align with organizational goals. Skilled in requirement gathering and process modeling (UML, BPMN), I enjoy translating complex workflows into clear, structured, and actionable system designs.
+              Information Systems graduate with a strong interest in SAP system implementation. Experienced as a System Analyst in IT industry and certified in SAP Professional Fundamentals (Coursera). Skilled in documenting business requirements, designing solution, and testing system functionality. Familiar with SAP MM-related processes, including procurement and inventory flows, based on experience analyzing Dealer Management Systems (DMS), with knowledge of SAP FI and SD concepts. Ready to deliver scalable SAP solutions that optimize business processes and drive digital transformation.
             </p>
 
             {/* Tombol Kontak */}
@@ -94,7 +94,7 @@ export default function Portfolio() {
             <div className="flex flex-wrap justify-center gap-3 text-sm md:text-base">
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Requirement Gathering & Analysis</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">System Analysis</span>
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">SLDC Understanding</span>
+              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">SDLC Understanding</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">System Design</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Process Mapping</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Business Process Modeling & Notation (BPMN)</span>
@@ -102,7 +102,6 @@ export default function Portfolio() {
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Flowchart</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Project Management</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">UI Design</span>
-              <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Data Analysis</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">SQL Query</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Statistics</span>
               <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Database Management Systems</span>
