@@ -698,8 +698,104 @@ export default function Portfolio() {
       <section id="certifications" className="relative py-16 px-4 bg-gradient-to-br from-slate-800 via-blue-900 to-slate-800 overflow-hidden">
         <AnimatedWaves className="opacity-30" />
         <div className="container mx-auto max-w-6xl relative z-10">
-          <h2 className="text-3xl font-bold text-center mb-12 text-white">Certifications</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-white">Certifications & Training</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15">
+              <CardHeader className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-blue-400/20 rounded-full flex items-center justify-center">
+                  <Users className="w-8 h-8 text-blue-300" />
+                </div>
+                <CardTitle className="mb-2 text-white">
+                  SAP Professional Fundamentals
+                </CardTitle>
+                <CardDescription className="text-slate-300"> SAP Technology Consultant Online Course</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <Badge className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Coursera by SAP</Badge>
+                <p className="text-sm text-slate-300 mb-4">
+                  This certification demonstrates foundational knowledge in SAP consulting, including business process understanding, digital and business transformation, solution delivery, and systems thinking to support end-to-end SAP implementation projects.
+                </p>
+                <Button 
+                  size="sm" 
+                  className="gap-2 bg-white text-slate-900 hover:bg-slate-100" 
+                  asChild
+                >
+                  <a 
+                    href="https://www.coursera.org/account/accomplishments/verify/SBQU9R91Y0YU" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    View Certificate
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15">
+              <CardHeader className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-green-400/20 rounded-full flex items-center justify-center">
+                  <Workflow className="w-8 h-8 text-green-300" />
+                </div>
+                <CardTitle className="mb-2 text-white">
+                  SCM500 - Business Processes in Procurement
+                </CardTitle>
+                <CardDescription className="text-slate-300">Procurement & Materials Management Fundamentals SAP Training</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <Badge className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Edugate SAP Partner</Badge>
+                <p className="text-sm text-slate-300 mb-4">
+                  This certification demonstrates an understanding of end-to-end procurement processes, including purchase requisition, purchase order, goods receipt, invoice verification, and their integration with financial accounting within SAP systems.
+                </p>
+                <Button 
+                  size="sm" 
+                  className="gap-2 bg-white text-slate-900 hover:bg-slate-100" 
+                  asChild
+                >
+                  <a 
+                    href="https://drive.google.com/file/d/1iZpzeRvQWxCGFoQdS8iBYVIOh_N-zXJl/view" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    View Certificate
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15">
+              <CardHeader className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-red-400/20 rounded-full flex items-center justify-center">
+                  <BarChart3 className="w-8 h-8 text-red-300" />
+                </div>
+                <CardTitle className="mb-2 text-white">
+                  AC010 - Business Processes in Financial Accounting
+                </CardTitle>
+                <CardDescription className="text-slate-300">Financial Accounting SAP Training</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <Badge className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Edugate SAP Partner</Badge>
+                <p className="text-sm text-slate-300 mb-4">
+                  This certification demonstrates an understanding of end-to-end business processes in financial accounting, including general ledger, accounts payable, accounts receivable, and their integration within SAP systems.
+                </p>
+                <Button 
+                  size="sm" 
+                  className="gap-2 bg-white text-slate-900 hover:bg-slate-100" 
+                  asChild
+                >
+                  <a 
+                    href="https://drive.google.com/file/d/1CLfM5AKQhEwn_VezEv0SMeooxdCgTjT8/view" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    View Certificate
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
 
             <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15">
               <CardHeader className="text-center">
