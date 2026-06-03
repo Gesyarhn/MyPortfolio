@@ -166,26 +166,11 @@ export default function Portfolio() {
         <div className="container mx-auto max-w-6xl relative z-10">
           <h2 className="text-3xl font-bold text-center mb-12 text-slate-900">Skills & Technologies</h2>
           <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-6 gap-5 items-center justify-items-center">
-            <div className="flex flex-col items-center group">
-              <img
-                src="/logos/excel.png"
-                alt="Microsoft Excel"
-                className="h-16 mb-2 transition-transform group-hover:scale-110"
-              />
-            </div>
 
             <div className="flex flex-col items-center group">
               <img
-                src="/logos/word.png"
-                alt="Microsoft Word"
-                className="h-16 mb-2 transition-transform group-hover:scale-110"
-              />
-            </div>
-
-            <div className="flex flex-col items-center group">
-              <img
-                src="/logos/powerpoint.png"
-                alt="Microsoft PowerPoint"
+                src="/logos/logo-figma.png"
+                alt="Figma"
                 className="h-16 mb-2 transition-transform group-hover:scale-110"
               />
             </div>
@@ -232,6 +217,14 @@ export default function Portfolio() {
 
             <div className="flex flex-col items-center group">
               <img
+                src="/logos/lucidchart.png"
+                alt="Lucidchart"
+                className="h-16 mb-2 transition-transform group-hover:scale-110"
+              />
+            </div>
+
+            <div className="flex flex-col items-center group">
+              <img
                 src="/logos/jira.png"
                 alt="Jira"
                 className="h-16 mb-2 transition-transform group-hover:scale-110"
@@ -256,8 +249,16 @@ export default function Portfolio() {
 
             <div className="flex flex-col items-center group">
               <img
-                src="/logos/logo-figma.png"
-                alt="Figma"
+                src="/logos/logo-expressjs.jpeg"
+                alt="Express.js"
+                className="h-16 mb-2 transition-transform group-hover:scale-110"
+              />
+            </div>
+
+            <div className="flex flex-col items-center group">
+              <img
+                src="/logos/logo-reactjs.png"
+                alt="React.js"
                 className="h-16 mb-2 transition-transform group-hover:scale-110"
               />
             </div>
