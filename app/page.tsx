@@ -108,12 +108,14 @@ export default function Portfolio() {
               Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-800 to-blue-800">Gesya Reihan Nurbayan</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-600 mb-8">
-              System Analysis & SAP Implementation Enthusiast
+              Business & System Analysis Enthusiast
             </p>
 
             {/* Deskripsi */}
             <p className="text-lg text-slate-500 max-w-2xl mx-auto mb-8 leading-relaxed">
-              Information Systems graduate with a strong interest in SAP system implementation. Experienced as a System Analyst in IT industry and certified in SAP Professional Fundamentals (Coursera). Skilled in documenting business requirements, designing solution, and testing system functionality. Familiar with SAP MM-related processes, including procurement and inventory flows, based on experience analyzing Dealer Management Systems (DMS), with knowledge of SAP FI and SD concepts. Ready to deliver scalable SAP solutions that optimize business processes and drive digital transformation.
+            Information Systems graduate with nearly 1 year of experience in system analysis and IT projects, certified as a System Analyst (BNSP). I enjoy working at the intersection of business and technology, helping teams understand what they actually need and translating that into structured, actionable solutions.
+
+              <br /><br />My experience spans requirement analysis, BRD/FRD documentation, solution design, UI/UX Design,  UAT and deployment support — gained through hands-on involvement in real-world projects across financial systems and digital platforms. I'm proficient in Visual Paradigm, draw.io, and Figma for system design, and Jira for project tracking, with a solid understanding of SDLC and programming.
             </p>
 
             {/* Tombol Kontak */}
@@ -274,6 +276,44 @@ export default function Portfolio() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
+            {/* Dapur AI */}
+            <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 flex flex-col h-full hover:bg-white/15">
+              <CardHeader className="p-0">
+                <Image
+                  src="/logos/Satu_Katering.jpg"
+                  alt="Satu Katering - E-Catering Marketplace System Analysis"
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg w-full h-[200px] object-cover"
+                />
+              </CardHeader>
+              <CardContent className="flex flex-col flex-grow p-4">
+                <CardTitle className="mb-2 text-white">
+                  DapurAI - AI Recipe Generator
+                </CardTitle>
+                <CardDescription className="mb-4 text-slate-300">
+                  A fullstack AI-powered recipe generator web application that suggests recipes based on available ingredients. Built with React + Vite, Node.js/Express, PostgreSQL (Neon), and integrated with the Gemini AI API for intelligent recipe generation.
+                </CardDescription>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">React + Vite</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Node.js/Express</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">PostgreSQL (Neon)</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Gemini AI API</Badge>
+                </div>
+                <div className="mt-auto">
+                  <Button size="sm" className="gap-2 w-full bg-blue-800 hover:bg-blue-900 text-white" asChild>
+                    <a 
+                      href="http://gesyarhn.site/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="w-3 h-3" /> View Project
+                    </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
             {/* Satu Katering */}
             <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 flex flex-col h-full hover:bg-white/15">
               <CardHeader className="p-0">
@@ -293,11 +333,11 @@ export default function Portfolio() {
                   Final assessment project for System Analyst certification (BNSP). Designed an end-to-end online catering marketplace platform called "Satu Katering", covering system requirements analysis, UML diagrams, use case scenarios, UI design, and technology specification (hardware & software).
                 </CardDescription>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">System Analysis</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">UML Diagram</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Use Case</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">UI Design</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Technical Specification</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">System Analysis</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">UML Diagram</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Use Case</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">UI Design</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Technical Specification</Badge>
                 </div>
                 <div className="mt-auto">
                   <Button size="sm" className="gap-2 w-full bg-blue-800 hover:bg-blue-900 text-white" asChild>
@@ -332,10 +372,10 @@ export default function Portfolio() {
                   A platform designed to enhance collaboration across logistics stakeholders by providing clear process flows, structured shipment data, and easy-to-navigate interfaces. The design improves decision-making and reduces operational complexity.
                 </CardDescription>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">UI/UX Design</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Mockup</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Prototype</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Figma</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">UI/UX Design</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Mockup</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Prototype</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Figma</Badge>
                 </div>
                 <div className="mt-auto flex flex-col sm:flex-row gap-2">
                   <Button size="sm" className="gap-2 flex-1 bg-blue-800 hover:bg-blue-900 text-white" asChild>
@@ -370,10 +410,10 @@ export default function Portfolio() {
                   This final project focuses on designing a digital logistics distribution platform by applying a structured system analysis approach. The work involves gathering and validating user requirements, modeling business processes with BPMN, and designing system structures using UML diagrams such as Use Case, Activity, Sequence, and Class Diagrams.
                 </CardDescription>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">System Design</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Use Case Diagram</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Activity Diagram</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">BPMN</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">System Design</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Use Case Diagram</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Activity Diagram</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">BPMN</Badge>
                 </div>
                 <div className="mt-auto flex flex-col sm:flex-row gap-2">
                   <Button size="sm" className="gap-2 flex-1 bg-blue-800 hover:bg-blue-900 text-white" asChild>
@@ -408,10 +448,10 @@ export default function Portfolio() {
                   EmoWell is a web-based counseling platform designed to improve accessibility and responsiveness of mental health services for university students. The system enables students to schedule counseling sessions, access psychological article/resources, and communicate with counselors through a streamlined digital interface.
                 </CardDescription>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Website Development</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Laravel</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Project Management</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Jira</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Website Development</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Laravel</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Project Management</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Jira</Badge>
                 </div>
                 <div className="mt-auto flex flex-col sm:flex-row gap-2">
                   <Button size="sm" className="gap-2 flex-1 bg-blue-800 hover:bg-blue-900 text-white" asChild>
@@ -446,10 +486,10 @@ export default function Portfolio() {
                   Final project for Business Process Reengineering (BPR) course. Analyzed and redesigned the core business processes of PT Permata Jaya Corp, a logistics company in Cikarang. Deliverables included AS-IS and TO-BE process models, gap analysis, and proposed IT-based improvements using BPMN diagrams.
                 </CardDescription>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Business Process</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">BPMN</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Gap Analysis</Badge>
-                  <Badge variant="secondary" className="bg-blue-800/20 text-blue-200 border-blue-400/30">Process Redesign</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Business Process</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">BPMN</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Gap Analysis</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Process Redesign</Badge>
                 </div>
                 <div className="mt-auto">
                   <Button size="sm" className="gap-2 w-full bg-blue-800 hover:bg-blue-900 text-white" asChild>
