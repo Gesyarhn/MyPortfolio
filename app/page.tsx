@@ -115,7 +115,7 @@ export default function Portfolio() {
             <p className="text-lg text-slate-500 max-w-2xl mx-auto mb-8 leading-relaxed">
             Information Systems graduate with nearly 1 year of experience in system analysis and IT projects, certified as a System Analyst (BNSP). I enjoy working at the intersection of business and technology, helping teams understand what they actually need and translating that into structured, actionable solutions.
 
-              <br /><br />My experience spans requirement analysis, BRD/FRD documentation, solution design, UI/UX Design,  UAT and deployment support — gained through hands-on involvement in real-world projects across financial systems and digital platforms. I'm proficient in Visual Paradigm, draw.io, and Figma for system design, and Jira for project tracking, with a solid understanding of SDLC and programming.
+            <br /><br />My experience spans requirement analysis, BRD/FRD documentation, solution design, UI/UX Design,  UAT and deployment support — gained through hands-on involvement in real-world projects across financial systems and digital platforms. I'm proficient in Visual Paradigm, draw.io, and Figma for system design, and Jira for project tracking, with a solid understanding of SDLC and programming.
             </p>
 
             {/* Tombol Kontak */}
@@ -280,8 +280,8 @@ export default function Portfolio() {
             <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 flex flex-col h-full hover:bg-white/15">
               <CardHeader className="p-0">
                 <Image
-                  src="/logos/Satu_Katering.jpg"
-                  alt="Satu Katering - E-Catering Marketplace System Analysis"
+                  src="/logos/DapurAI.jpeg"
+                  alt="DapurAI - AI Recipe Generator"
                   width={400}
                   height={200}
                   className="rounded-t-lg w-full h-[200px] object-cover"
