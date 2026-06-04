@@ -177,8 +177,8 @@ export default function Portfolio() {
 
             <div className="flex flex-col items-center group">
               <img
-                src="/logos/teams.png"
-                alt="Microsoft Teams"
+                src="/logos/logo-balsamic.png"
+                alt="Balsamic"
                 className="h-16 mb-2 transition-transform group-hover:scale-110"
               />
             </div>
@@ -209,7 +209,7 @@ export default function Portfolio() {
 
             <div className="flex flex-col items-center group">
               <img
-                src="/logos/drawio.png"
+                src="/logos/logo-drawio.jpg"
                 alt="Draw.io"
                 className="h-12 mb-2 transition-transform group-hover:scale-110"
               />
@@ -302,7 +302,7 @@ export default function Portfolio() {
                   <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Gemini AI API</Badge>
                 </div>
                 <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full bg-blue-800 hover:bg-blue-900 text-white" asChild>
+                  <Button size="sm" className="mb-2 bg-white w-full text-slate-900 hover:bg-blue-100" asChild>
                     <a 
                       href="http://gesyarhn.site/" 
                       target="_blank" 
@@ -341,7 +341,7 @@ export default function Portfolio() {
                   <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Technical Specification</Badge>
                 </div>
                 <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full bg-blue-800 hover:bg-blue-900 text-white" asChild>
+                  <Button size="sm" className="mb-2 bg-white w-full text-slate-900 hover:bg-blue-100" asChild>
                     <a 
                       href="https://drive.google.com/file/d/1U5LxddlalzBFHzUz-HtB8TTUNN_3eMs5/view?usp=sharing" 
                       target="_blank" 
@@ -379,7 +379,7 @@ export default function Portfolio() {
                   <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Figma</Badge>
                 </div>
                 <div className="mt-auto flex flex-col sm:flex-row gap-2">
-                  <Button size="sm" className="gap-2 flex-1 bg-blue-800 hover:bg-blue-900 text-white" asChild>
+                  <Button size="sm" className="mb-2 bg-white w-full text-slate-900 hover:bg-blue-100" asChild>
                     <a 
                       href="https://www.figma.com/design/c45R07VdKNdtnwUN2EfPlL/Project-Tugas-Akhir?node-id=0-1&t=jR8uIBK1uewrvmJh-1" 
                       target="_blank" 
@@ -417,7 +417,7 @@ export default function Portfolio() {
                   <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">BPMN</Badge>
                 </div>
                 <div className="mt-auto flex flex-col sm:flex-row gap-2">
-                  <Button size="sm" className="gap-2 flex-1 bg-blue-800 hover:bg-blue-900 text-white" asChild>
+                  <Button size="sm" className="mb-2 bg-white w-full text-slate-900 hover:bg-blue-100" asChild>
                     <a 
                       href="https://drive.google.com/file/d/1J11PD_7_oP9zXQYkzEH_BWF7Kq6Oa8gT/view?usp=sharing" 
                       target="_blank" 
@@ -455,7 +455,7 @@ export default function Portfolio() {
                   <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Jira</Badge>
                 </div>
                 <div className="mt-auto flex flex-col sm:flex-row gap-2">
-                  <Button size="sm" className="gap-2 flex-1 bg-blue-800 hover:bg-blue-900 text-white" asChild>
+                  <Button size="sm" className="gap-2 flex-1 bg-white text-slate-900 hover:bg-blue-100" asChild>
                     <a 
                       href="#" 
                       target="_blank" 
@@ -493,7 +493,7 @@ export default function Portfolio() {
                   <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Process Redesign</Badge>
                 </div>
                 <div className="mt-auto">
-                  <Button size="sm" className="gap-2 w-full bg-blue-800 hover:bg-blue-900 text-white" asChild>
+                  <Button size="sm" className="gap-2 w-full bg-white text-slate-900 hover:bg-blue-100" asChild>
                     <a 
                       href="https://drive.google.com/file/d/1i_lFrO27umBB6sL6W9tdZsVq7kCloOC4/view?usp=sharing" 
                       target="_blank" 
