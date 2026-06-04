@@ -185,8 +185,8 @@ export default function Portfolio() {
 
             <div className="flex flex-col items-center group">
               <img
-                src="/logos/logo-sap-fix.png"
-                alt="SAP"
+                src="/logos/logo-postgresql.jpg"
+                alt="PostgreSQL"
                 className="h-16 mb-2 transition-transform group-hover:scale-110"
               />
             </div>
