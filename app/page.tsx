@@ -293,10 +293,10 @@ export default function Portfolio() {
                   DapurAI - AI Recipe Generator
                 </CardTitle>
                 <CardDescription className="mb-4 text-slate-300">
-                  A fullstack AI-powered recipe generator web application that suggests recipes based on available ingredients. Built with React + Vite, Node.js/Express, PostgreSQL (Neon), and integrated with the Gemini AI API for intelligent recipe generation.
+                  A fullstack AI-powered recipe generator web application that suggests recipes based on available ingredients. Built with React.js + Vite, Node.js/Express, PostgreSQL (Neon), and integrated with the Gemini AI API for intelligent recipe generation.
                 </CardDescription>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">React + Vite</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">React.js + Vite</Badge>
                   <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Node.js/Express</Badge>
                   <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">PostgreSQL (Neon)</Badge>
                   <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Gemini AI API</Badge>
