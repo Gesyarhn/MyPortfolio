@@ -742,6 +742,46 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold text-center mb-12 text-white">Certifications & Training</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
+            <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15 flex flex-col h-full">
+              <CardHeader className="text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-purple-400/20 rounded-full flex items-center justify-center">
+                  <Workflow className="w-8 h-8 text-purple-300" />
+                </div>
+                <CardTitle className="mb-2 text-white">
+                  System Analyst
+                </CardTitle>
+                <CardDescription className="text-slate-300">
+                  Professional System Analyst Certification
+                </CardDescription>
+              </CardHeader>
+
+              <CardContent className="flex flex-col h-full text-center">
+                <div>
+                  <Badge className="mb-2 bg-white text-slate-900 hover:bg-slate-100">BNSP</Badge>
+                  <p className="text-sm text-slate-300 mb-4">
+                    Certified System Analyst by Badan Nasional Sertifikasi Profesi
+                  </p>
+                </div>
+
+                <div className="mt-auto">
+                  <Button
+                    size="sm"
+                    className="gap-2 bg-white text-slate-900 hover:bg-slate-100"
+                    asChild
+                  >
+                    <a
+                      href="https://drive.google.com/file/d/1Sp_F1_M749HbiCcc2x4grYzPfKv0Lch3/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="w-3 h-3" />
+                      View Certificate
+                    </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
             <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 bg-blue-400/20 rounded-full flex items-center justify-center">
@@ -867,46 +907,6 @@ export default function Portfolio() {
                     View Certificate
                   </a>
                 </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15 flex flex-col h-full">
-              <CardHeader className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 bg-purple-400/20 rounded-full flex items-center justify-center">
-                  <Workflow className="w-8 h-8 text-purple-300" />
-                </div>
-                <CardTitle className="mb-2 text-white">
-                  System Analyst
-                </CardTitle>
-                <CardDescription className="text-slate-300">
-                  Professional System Analyst Certification
-                </CardDescription>
-              </CardHeader>
-
-              <CardContent className="flex flex-col h-full text-center">
-                <div>
-                  <Badge className="mb-2 bg-white text-slate-900 hover:bg-slate-100">BNSP</Badge>
-                  <p className="text-sm text-slate-300 mb-4">
-                    Certified System Analyst by Badan Nasional Sertifikasi Profesi
-                  </p>
-                </div>
-
-                <div className="mt-auto">
-                  <Button
-                    size="sm"
-                    className="gap-2 bg-white text-slate-900 hover:bg-slate-100"
-                    asChild
-                  >
-                    <a
-                      href="https://drive.google.com/file/d/1Sp_F1_M749HbiCcc2x4grYzPfKv0Lch3/view?usp=sharing"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="w-3 h-3" />
-                      View Certificate
-                    </a>
-                  </Button>
-                </div>
               </CardContent>
             </Card>
 
