@@ -277,6 +277,47 @@ export default function Portfolio() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
+            {/* MediKu */}
+              <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 flex flex-col h-full hover:bg-white/15">
+                <CardHeader className="p-0">
+                  <Image
+                    src="/logos/mediku-cover.png"
+                    alt="MediKu - Clinical Dose Calculator"
+                    width={400}
+                    height={200}
+                    className="rounded-t-lg w-full h-[200px] object-cover"
+                  />
+                </CardHeader>
+                <CardContent className="flex flex-col flex-grow p-4">
+                  <CardTitle className="mb-2 text-white">
+                    MediKu - Clinical Dose Calculator
+                  </CardTitle>
+                  <CardDescription className="mb-4 text-slate-300">
+                    "A fullstack clinical web application built for a doctor colleague to calculate pediatric and adult drug dosages based on patient weight and age. It prevents medication errors using real-time safety validation, drug database lookups, and smart BPJS prescription optimization."
+                  </CardDescription>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">React + TypeScript</Badge>
+                    <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Express.js</Badge>
+                    <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">PostgreSQL + Drizzle ORM</Badge>
+                    <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Better Auth</Badge>
+                    <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Tailwind CSS</Badge>
+                    <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">VPS Niagahoster</Badge>
+                  </div>
+                  <div className="mt-auto">
+                    <Button size="sm" className="mb-2 bg-white w-full text-slate-900 hover:bg-blue-100" asChild>
+                      <a
+                        href="https://mediku.gesyarhn.site/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2"
+                      >
+                        <ExternalLink className="w-3.5 h-3.5" /> View Project
+                      </a>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+
             {/* Dapur AI */}
             <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 flex flex-col h-full hover:bg-white/15">
               <CardHeader className="p-0">
