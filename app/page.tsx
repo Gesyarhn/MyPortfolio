@@ -293,7 +293,7 @@ export default function Portfolio() {
                     MediKu - Clinical Dose Calculator
                   </CardTitle>
                   <CardDescription className="mb-4 text-slate-300">
-                    "A fullstack clinical web application built for a doctor colleague to calculate pediatric and adult drug dosages based on patient weight and age. It prevents medication errors using real-time safety validation, drug database lookups, and smart BPJS prescription optimization."
+                    A fullstack clinical web application built for a doctor colleague to calculate pediatric and adult drug dosages based on patient weight and age. It prevents medication errors using real-time safety validation, drug database lookups, and smart BPJS prescription optimization.
                   </CardDescription>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">React + TypeScript</Badge>
