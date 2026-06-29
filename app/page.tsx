@@ -207,19 +207,12 @@ export default function Portfolio() {
 
             <div className="flex flex-col items-center group">
               <img
-                src="/logos/logo-javascript.png"
-                alt="JavaScript"
-                className="h-16 mb-2 transition-transform group-hover:scale-110"
-              />
-            </div>
-
-            <div className="flex flex-col items-center group">
-              <img
                 src="/logos/logo-postgresql.jpg"
                 alt="PostgreSQL"
                 className="h-16 mb-2 transition-transform group-hover:scale-110"
               />
             </div>
+
 
             <div className="flex flex-col items-center group">
               <img
@@ -234,6 +227,14 @@ export default function Portfolio() {
                 src="/logos/logo-slack.png"
                 alt="Slack"
                 className="w-16mb-2 transition-transform group-hover:scale-110"
+              />
+            </div>
+            
+            <div className="flex flex-col items-center group">
+              <img
+                src="/logos/logo-javascript.png"
+                alt="JavaScript"
+                className="h-16 mb-2 transition-transform group-hover:scale-110"
               />
             </div>
 
@@ -312,7 +313,7 @@ export default function Portfolio() {
                 </div>
               </CardContent>
             </Card>
-            
+
             {/* MediKu */}
               <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 flex flex-col h-full hover:bg-white/15">
                 <CardHeader className="p-0">
