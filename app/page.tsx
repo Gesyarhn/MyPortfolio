@@ -108,14 +108,12 @@ export default function Portfolio() {
               Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-800 to-blue-800">Gesya Reihan Nurbayan</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-600 mb-8">
-              Business & System Analysis Enthusiast
+              IT Quality Assurance & System Analysis Enthusiast
             </p>
 
             {/* Deskripsi */}
             <p className="text-lg text-slate-500 max-w-2xl mx-auto mb-8 leading-relaxed">
-            Information Systems graduate with nearly 1 year of experience in system analysis and IT projects, certified as a System Analyst (BNSP). I enjoy working at the intersection of business and technology, helping teams understand what they actually need and translating that into structured, actionable solutions.
-
-            <br /><br />My experience spans requirement analysis, BRD/FRD documentation, solution design, UI/UX Design,  UAT and deployment support — gained through hands-on involvement in real-world projects across financial systems and digital platforms. I'm proficient in Visual Paradigm, draw.io, and Figma for system design, and Jira for project tracking, with a solid understanding of SDLC and programming.
+           Information Systems graduate with hands-on experience in Software Quality Assurance, contributing to the testing of a Triputra Group financial system by designing UAT test scenarios, executing functional testing, and managing defect reporting and retesting. Strong understanding of business requirement validation and the Software Development Life Cycle (SDLC), with experience collaborating closely with developers and business users. Additionally skilled in automation testing using Playwright and Katalon, enabling faster and more consistent test execution.
             </p>
 
             {/* Tombol Kontak */}
@@ -144,19 +142,19 @@ export default function Portfolio() {
         <div className="container mx-auto max-w-4xl relative z-10">
           <h2 className="text-3xl font-bold text-center mb-8  text-white">Skill Highlights</h2>
           <div className="flex flex-wrap justify-center gap-3 text-sm md:text-base">
-            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Requirement Gathering & Analysis</span>
-            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">System Analysis</span>
+            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Manual Testing</span>
+            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Automation Testing</span>
+            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Functional Testing</span>
+            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Test Case/Scenario  Design</span>
             <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">SDLC Understanding</span>
-            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">System Design</span>
-            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Process Mapping</span>
-            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Business Process Modeling & Notation (BPMN)</span>
-            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">UML Diagram</span>
-            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Flowchart</span>
-            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Project Management</span>
-            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">UI Design</span>
+            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">User Acceptance Testing (UAT)</span>
             <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">SQL Query</span>
-            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Statistics</span>
-            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Database Management Systems</span>
+            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Flowchart</span>
+            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Bug Identification</span>
+            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Log Testing Documentation</span>
+            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">System Design</span>
+            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Requirement Gathering & Analysis</span>
+            <span className="px-4 py-2 rounded-full bg-white/80 text-blue-800 font-medium border border-blue-300 shadow-sm backdrop-blur-sm hover:bg-white hover:shadow-md transition-all">Project Management</span>
           </div>
         </div>
       </section>
@@ -167,42 +165,19 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold text-center mb-12 text-slate-900">Skills & Technologies</h2>
           <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-6 gap-5 items-center justify-items-center">
 
-            <div className="flex flex-col items-center group">
-              <img
-                src="/logos/logo-figma.png"
-                alt="Figma"
-                className="h-16 mb-2 transition-transform group-hover:scale-110"
-              />
-            </div>
 
             <div className="flex flex-col items-center group">
               <img
-                src="/logos/logo-balsamic.png"
-                alt="Balsamic"
-                className="h-16 mb-2 transition-transform group-hover:scale-110"
-              />
-            </div>
-
-            <div className="flex flex-col items-center group">
-              <img
-                src="/logos/logo-postgresql.jpg"
-                alt="PostgreSQL"
-                className="h-16 mb-2 transition-transform group-hover:scale-110"
-              />
-            </div>
-
-            <div className="flex flex-col items-center group">
-              <img
-                src="/logos/lookerstudio.png"
-                alt="Looker Studio"
+                src="/logos/logo-katalon.jpg"
+                alt="Katalon"
                 className="mb-2 transition-transform group-hover:scale-110"
               />
             </div>
 
             <div className="flex flex-col items-center group">
               <img
-                src="/logos/bizagi.png"
-                alt="Bizagi"
+                src="/logos/logo-playwright.png"
+                alt="Playwright"
                 className="mb-2 transition-transform group-hover:scale-110"
               />
             </div>
@@ -219,6 +194,29 @@ export default function Portfolio() {
               <img
                 src="/logos/lucidchart.png"
                 alt="Lucidchart"
+                className="h-16 mb-2 transition-transform group-hover:scale-110"
+              />
+            </div>
+            <div className="flex flex-col items-center group">
+              <img
+                src="/logos/logo-figma.png"
+                alt="Figma"
+                className="h-16 mb-2 transition-transform group-hover:scale-110"
+              />
+            </div>
+
+            <div className="flex flex-col items-center group">
+              <img
+                src="/logos/logo-javascript.png"
+                alt="JavaScript"
+                className="h-16 mb-2 transition-transform group-hover:scale-110"
+              />
+            </div>
+
+            <div className="flex flex-col items-center group">
+              <img
+                src="/logos/logo-postgresql.jpg"
+                alt="PostgreSQL"
                 className="h-16 mb-2 transition-transform group-hover:scale-110"
               />
             </div>
@@ -272,11 +270,49 @@ export default function Portfolio() {
         <AnimatedWaves className="opacity-50" />
         <div className="container mx-auto max-w-6xl relative z-10">
           <h2 className="text-3xl font-bold text-center mb-12 text-white">
-            System Analysis & Web Development Projects
+            IT Projects
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
+            {/* Dapur AI */}
+            <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 flex flex-col h-full hover:bg-white/15">
+              <CardHeader className="p-0">
+                <Image
+                  src="/logos/DapurAI.jpeg"
+                  alt="DapurAI - AI Recipe Generator"
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg w-full h-[200px] object-cover"
+                />
+              </CardHeader>
+              <CardContent className="flex flex-col flex-grow p-4">
+                <CardTitle className="mb-2 text-white">
+                  DapurAI - AI Recipe Generator
+                </CardTitle>
+                <CardDescription className="mb-4 text-slate-300">
+                  A fullstack AI-powered recipe generator web application that suggests recipes based on available ingredients. Built with React.js + Vite, Node.js/Express, PostgreSQL (Neon), and integrated with the Gemini AI API for intelligent recipe generation.
+                </CardDescription>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">React.js + Vite</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Node.js/Express</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">PostgreSQL (Neon)</Badge>
+                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Gemini AI API</Badge>
+                </div>
+                <div className="mt-auto">
+                  <Button size="sm" className="mb-2 bg-white w-full text-slate-900 hover:bg-blue-100" asChild>
+                    <a 
+                      href="http://gesyarhn.site/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="w-3 h-3" /> View Project
+                    </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+            
             {/* MediKu */}
               <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 flex flex-col h-full hover:bg-white/15">
                 <CardHeader className="p-0">
@@ -318,43 +354,6 @@ export default function Portfolio() {
                 </CardContent>
               </Card>
 
-            {/* Dapur AI */}
-            <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 flex flex-col h-full hover:bg-white/15">
-              <CardHeader className="p-0">
-                <Image
-                  src="/logos/DapurAI.jpeg"
-                  alt="DapurAI - AI Recipe Generator"
-                  width={400}
-                  height={200}
-                  className="rounded-t-lg w-full h-[200px] object-cover"
-                />
-              </CardHeader>
-              <CardContent className="flex flex-col flex-grow p-4">
-                <CardTitle className="mb-2 text-white">
-                  DapurAI - AI Recipe Generator
-                </CardTitle>
-                <CardDescription className="mb-4 text-slate-300">
-                  A fullstack AI-powered recipe generator web application that suggests recipes based on available ingredients. Built with React.js + Vite, Node.js/Express, PostgreSQL (Neon), and integrated with the Gemini AI API for intelligent recipe generation.
-                </CardDescription>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">React.js + Vite</Badge>
-                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Node.js/Express</Badge>
-                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">PostgreSQL (Neon)</Badge>
-                  <Badge variant="secondary" className="mb-2 bg-white text-slate-900 hover:bg-slate-100">Gemini AI API</Badge>
-                </div>
-                <div className="mt-auto">
-                  <Button size="sm" className="mb-2 bg-white w-full text-slate-900 hover:bg-blue-100" asChild>
-                    <a 
-                      href="http://gesyarhn.site/" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="w-3 h-3" /> View Project
-                    </a>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
 
             {/* Satu Katering */}
             <Card className="group hover:shadow-xl transition-all bg-white/10 backdrop-blur-sm border-white/20 flex flex-col h-full hover:bg-white/15">
